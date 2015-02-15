@@ -4,11 +4,12 @@
     <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="" />
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423964220516" ignored="false" />
+    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423966388504" ignored="false" />
     <file path="/test.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423958225057" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/lib/proto.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/index.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
     <file path="/package.json" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423963058099" ignored="false" />
+    <file path="/home.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423965071750" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +29,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="17" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.69509345">
+            <state line="28" column="62" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -58,6 +68,7 @@
       <list>
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
@@ -222,7 +233,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -231,7 +242,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="17" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.69509345">
+        <state line="28" column="62" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -3,10 +3,11 @@ my_http = require("http"),
 path = require("path"),
 url = require("url"),
 fileSys = require("fs"),
+app = connect(),
 port = 3000;
 
 
-connect.createServer(function(request, response){
+app.use(function(request, response){
     var my_path = url.parse(request.url).pathname;
     var full_path = path.join(process.cwd(), my_path);
     path.exists(full_path,function(exists){
@@ -30,6 +31,6 @@ connect.createServer(function(request, response){
             });
         }
     });
-}).listen(port);
-
+});
+my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);

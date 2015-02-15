@@ -4,7 +4,7 @@ path = require("path"),
 url = require("url"),
 fileSys = require("fs"),
 app = connect(),
-port = 8080;
+port = normalizePort(process.env.PORT || '3000');
 
 app.use('/', function(request, response){
     var full_path = path.join(process.cwd(), 'index.html');

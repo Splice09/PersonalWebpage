@@ -4,7 +4,7 @@
     <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="" />
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423966388504" ignored="false" />
+    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423971091220" ignored="false" />
     <file path="/test.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423958225057" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/lib/proto.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/index.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="48" selection-start="197" selection-end="197" vertical-scroll-proportion="0.05957944">
+            <state line="6" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.05957944">
               <folding />
             </state>
           </provider>
@@ -249,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="197" selection-end="197" vertical-scroll-proportion="0.05957944">
+        <state line="6" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.05957944">
           <folding />
         </state>
       </provider>

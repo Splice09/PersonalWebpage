@@ -7,7 +7,7 @@ app = connect(),
 port = process.env.PORT || 5000;
 
 app.use('/', function(request, response){
-    var full_path = path.join(process.cwd(), 'index.html');
+    var full_path = path.join(process.cwd(), 'WebFrame.html');
     path.exists(full_path,function(exists){
         if(!exists){
             response.writeHeader(404, {"Content-Type": "text/plain"});

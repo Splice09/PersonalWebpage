@@ -1,0 +1,71 @@
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom:5px;
+    height: 5rem;
+    display:table;
+    background-color: #cccdcb;
+    layer-background-color: #cccdcb;
+    visibility: visible;
+
+}
+#pageHead{
+    letter-spacing: 2rem;
+    font-family: "depot-new-web",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 300%;
+    display:table-cell;
+    vertical-align:middle;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#testTriangle{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+
+    border-bottom: 5px solid black;
+}
+/*
+#bodyBox1{
+    position: absolute;
+    width: 49%;
+    top:110px;
+    left:5px;
+    bottom:5px;
+    height: 82%;
+    background-color: #050a89;
+    layer-background-color: #050a89;
+    visibility: visible;
+    border-radius:7px;
+}
+#bodyBox2{
+    position: absolute;
+    width:24.8%;
+    top:110px;
+    left:682px;
+    height: 41%;
+    background-color: #ffb043;
+    layer-background-color: #ffb043;
+    visibility:visible;
+    border-radius:7px;
+}
+#bodyBox3{
+    position:absolute;
+    width:24.8%;
+    top: calc(110px + 41%);
+    right:5px;
+    height:41%;
+    background-color: #ffb043;
+    layer-background-color: #ffb043;
+    visibility:visible;
+    border-radius:7px;
+}
+*/

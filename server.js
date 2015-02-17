@@ -12,7 +12,7 @@ app.use('/', function(request, response){
     var requestedPath = url.parse(request.url).pathname;
     console.log("The joined cwd and requested path is --");
     console.log(path.join(process.cwd(), requestedPath));
-    if(requestedPath.length() > htmlPath.length()){
+    if(request.length() > htmlPath.length()){
         var full_path = path.join(process.cwd(), requestedPath);
     }
     else{

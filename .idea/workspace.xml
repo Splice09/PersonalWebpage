@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebFrame.html" afterPath="$PROJECT_DIR$/WebFrame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424137984202" ignored="false" />
+    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424142315157" ignored="false" />
     <file path="/test.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423958225057" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/lib/proto.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/index.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
@@ -15,7 +15,7 @@
     <file path="/index.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423971501647" ignored="false" />
     <file path="/Dummy.txt" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424129425445" ignored="false" />
     <file path="/WebFrame.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424138569707" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424138611488" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424142317873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="36" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+            <state line="37" column="25" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.64334863">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebFrame.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WebFrame.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebFrame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="0.30141845">
+            <state line="15" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/myStyle.css" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/WebFrame.html" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -372,16 +372,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/WebFrame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="36" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+        <state line="15" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame.html">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="463" selection-end="463" vertical-scroll-proportion="0.30141845">
+        <state line="37" column="25" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.64334863">
           <folding />
         </state>
       </provider>

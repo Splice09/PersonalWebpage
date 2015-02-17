@@ -7,6 +7,7 @@ app = connect(),
 port = process.env.PORT || 5000;
 
 app.use('/', function(request, response){
+    console.log(process.cwd());
     var full_path = path.join(process.cwd(), "WebFrame.html");
     path.exists(full_path,function(exists){
         if(!exists){
@@ -34,6 +35,7 @@ app.use('/', function(request, response){
 app.use('/assets/', function(request, response){
     var my_path = url.parse(request.url).pathname;
     var full_path = path.join(process.cwd(), my_path);
+    console.log(full_path);
     path.exists(full_path,function(exists){
         if(!exists){
             response.writeHeader(404, {"Content-Type": "text/plain"});

@@ -7,7 +7,7 @@ app = connect(),
 port = process.env.PORT || 5000,
 htmlPath = "WebFrame.html";
 
-app.use('/assets/', function(request, response){
+app.use('/public/', function(request, response){
     console.log("you are in the first app.use() function");
     var my_path = url.parse(request.url).pathname;
     console.log(path.join(url.parse(request.url).pathname, "This is the requested path"));

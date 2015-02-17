@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +37,7 @@
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="76" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.54587156">
+            <state line="9" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.17545871">
               <folding />
             </state>
           </provider>
@@ -45,7 +46,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="102" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
+            <state line="22" column="102" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -341,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="102" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
+        <state line="22" column="102" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -362,7 +363,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="76" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.54587156">
+        <state line="9" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.17545871">
           <folding />
         </state>
       </provider>

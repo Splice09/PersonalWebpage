@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Patrick\Web Development\NodeApps\datScript.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Patrick\Web Development\NodeApps\myStyle.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebFrame.html" afterPath="$PROJECT_DIR$/WebFrame.html" />
+      <change type="DELETED" beforePath="C:\Users\Patrick\Web Development\NodeApps\Scripts\datScript.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Patrick\Web Development\NodeApps\StyleSheets\myStyle.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423971091220" ignored="false" />
+    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424137984202" ignored="false" />
     <file path="/test.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423958225057" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/lib/proto.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/index.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+            <state line="33" column="17" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="102" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.0">
+            <state line="22" column="102" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
       <file leaf-file-name="WebFrame.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebFrame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="574" selection-end="574" vertical-scroll-proportion="0.50236404">
+            <state line="25" column="38" selection-start="574" selection-end="574" vertical-scroll-proportion="0.50236404">
               <folding />
             </state>
           </provider>
@@ -86,9 +86,9 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/myStyle.css" />
         <option value="$PROJECT_DIR$/WebFrame.html" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -329,21 +329,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="102" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.0">
+        <state line="22" column="102" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+        <state line="33" column="17" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebFrame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="574" selection-end="574" vertical-scroll-proportion="0.50236404">
+        <state line="25" column="38" selection-start="574" selection-end="574" vertical-scroll-proportion="0.50236404">
           <folding />
         </state>
       </provider>

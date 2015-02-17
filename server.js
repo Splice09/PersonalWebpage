@@ -10,9 +10,10 @@ htmlPath = "WebFrame.html";
 app.use('/', function(request, response){
     console.log("you are in the first app.use() function");
     var requestedPath = url.parse(request.url).pathname;
+    var stringReqPath = JSON.stringify(requestedPath);
     console.log("The joined cwd and requested path is --");
     console.log(path.join(process.cwd(), requestedPath));
-    if(((request.url).pathname).length() > htmlPath.length()){
+    if(stringReqPath.length() > htmlPath.length()){
         var full_path = path.join(process.cwd(), requestedPath);
     }
     else{

@@ -4,13 +4,20 @@ path = require("path"),
 url = require("url"),
 fileSys = require("fs"),
 app = connect(),
-port = process.env.PORT || 5000;
+port = process.env.PORT || 5000,
+htmlPath = "WebFrame.html";
 
 app.use('/', function(request, response){
     console.log("you are in the first app.use() function");
-    console.log(path.join(url.parse(request.url).pathname, "This is the requested path"));
-    console.log(path.join(process.cwd(), "this is my path with process.cwd()"));
-    var full_path = path.join(process.cwd(), "WebFrame.html");
+    var requestedPath = url.parse(request.url).pathname;
+    console.log("The joined cwd and requested path is --");
+    console.log(path.join(process.cwd(), requestedPath));
+    if(requestedPath.length() > htmlPath.length()){
+        var full_path = path.join(process.cwd(), requestedPath);
+    }
+    else{
+        var full_path = path.join(process.cwd(), htmlPath);
+    }
     path.exists(full_path,function(exists){
         if(!exists){
             response.writeHeader(404, {"Content-Type": "text/plain"});

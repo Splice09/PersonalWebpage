@@ -6,7 +6,7 @@
     </list>
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424904372656" ignored="false" />
+    <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424906480084" ignored="false" />
     <file path="/test.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423958225057" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/lib/proto.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/index.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423961590285" ignored="false" />
@@ -15,7 +15,7 @@
     <file path="/index.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423971501647" ignored="false" />
     <file path="/Dummy.txt" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424902045605" ignored="false" />
     <file path="/WebFrame.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424904236989" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424904447069" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424906499387" ignored="false" />
     <file path="/myStyle.css" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424903838383" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,16 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="26" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
+            <state line="51" column="45" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -141,24 +150,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NodeApps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeApps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeApps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="connect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,6 +370,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -388,7 +386,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="26" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
+        <state line="51" column="45" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

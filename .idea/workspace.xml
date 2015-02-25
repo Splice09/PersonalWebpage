@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="" />
+    <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebFrame.html" afterPath="$PROJECT_DIR$/WebFrame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/StyleSheets/myStyle.css" afterPath="$PROJECT_DIR$/assets/StyleSheets/myStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/server.js" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424147422626" ignored="false" />
@@ -13,7 +17,6 @@
     <file path="/index.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423971501647" ignored="false" />
     <file path="/Dummy.txt" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424902045605" ignored="false" />
     <file path="/WebFrame.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424148349347" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424148362358" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +45,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WebFrame.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebFrame.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="33" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="myStyle.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/StyleSheets/myStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="77" column="10" selection-start="1444" selection-end="1444" vertical-scroll-proportion="1.5011468">
               <folding />
             </state>
           </provider>
@@ -75,8 +87,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/myStyle.css" />
-        <option value="$PROJECT_DIR$/WebFrame.html" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/WebFrame.html" />
+        <option value="$PROJECT_DIR$/assets/StyleSheets/myStyle.css" />
       </list>
     </option>
   </component>
@@ -373,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="50" selection-start="153" selection-end="153" vertical-scroll-proportion="0.08018868">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="16" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
@@ -387,9 +393,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/StyleSheets/myStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="77" column="10" selection-start="1444" selection-end="1444" vertical-scroll-proportion="1.5011468">
           <folding />
         </state>
       </provider>

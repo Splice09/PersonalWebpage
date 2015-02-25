@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="04f0073e-a1d9-45c0-8474-26d9f5123034" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebFrame.html" afterPath="$PROJECT_DIR$/WebFrame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/StyleSheets/myStyle.css" afterPath="$PROJECT_DIR$/assets/StyleSheets/myStyle.css" />
     </list>
     <ignored path="NodeApps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,10 +14,10 @@
     <file path="/package.json" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423963058099" ignored="false" />
     <file path="/home.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423965071750" ignored="false" />
     <file path="/index.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1423971501647" ignored="false" />
-    <file path="/Dummy.txt" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424884914228" ignored="false" />
-    <file path="/WebFrame.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424887959491" ignored="false" />
+    <file path="/Dummy.txt" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424891687866" ignored="false" />
+    <file path="/WebFrame.html" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424894010845" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424148362358" ignored="false" />
-    <file path="/myStyle.css" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424889012686" ignored="false" />
+    <file path="/myStyle.css" changelist="04f0073e-a1d9-45c0-8474-26d9f5123034" time="1424893167679" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myStyle.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/StyleSheets/myStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="20" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebFrame.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WebFrame.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebFrame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="59" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0635514">
+            <state line="3" column="40" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myStyle.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/StyleSheets/myStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="1050" selection-end="1068" vertical-scroll-proportion="-0.060606062">
               <folding />
             </state>
           </provider>
@@ -185,8 +177,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -322,6 +314,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/StyleSheets/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="20" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="59" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebFrame.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="50" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
@@ -379,16 +392,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/StyleSheets/myStyle.css">
+    <entry file="file://$PROJECT_DIR$/WebFrame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="20" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0">
+        <state line="3" column="40" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame.html">
+    <entry file="file://$PROJECT_DIR$/assets/StyleSheets/myStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="59" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0635514">
+        <state line="59" column="0" selection-start="1050" selection-end="1068" vertical-scroll-proportion="-0.060606062">
           <folding />
         </state>
       </provider>

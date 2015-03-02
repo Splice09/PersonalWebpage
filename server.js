@@ -41,7 +41,10 @@ app.use('/public/', function(request, response){
 
 app.use('/', function(request, response){
     console.log("you are in the second app.use() function");
-    var fullPath = path.join(process.cwd(), htmlPath);
+    var my_path = url.parse(request.url).pathname;
+    var fullPath = path.join(process.cwd(), my_path);
+    console.log("The full path is:");
+    console.log(fullPath);
     path.exists(fullPath,function(exists){
         if(!exists){
             response.writeHeader(404, {"Content-Type": "text/plain"});

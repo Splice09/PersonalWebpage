@@ -5,6 +5,7 @@ url = require("url"),
 fileSys = require("fs"),
 app = connect(),
 port = process.env.PORT || 5000,
+stats,
 htmlPath = "WebFrame.html";
 
 app.use('/public/', function(request, response){
@@ -14,10 +15,9 @@ app.use('/public/', function(request, response){
     console.log("The full path is ---")
     var fullPath = path.join(process.cwd(), my_path);
     console.log(fullPath);
-
-
-    path.exists(fullPath,function(doesExist){
-        if(!doesExist){
+    try{
+        stats = fileSys.lstatSync(fullPath);
+        if(stats.isDirectory()){
             response.writeHeader(404, {"Content-Type": "text/plain"});
             response.write("404 Not Found\n");
             response.end();
@@ -36,17 +36,20 @@ app.use('/public/', function(request, response){
                 }
             });
         }
-    });
+    }
+    catch (e){
+        console.log("yo shit is broke mang");
+    }
 });
 
 app.use('/', function(request, response){
     console.log("you are in the second app.use() function");
-    var my_path = url.parse(request.url).pathname;
-    var fullPath = path.join(process.cwd(), my_path);
+    var fullPath = path.join(process.cwd(), htmlPath);
     console.log("The full path is:");
     console.log(fullPath);
-    path.exists(fullPath,function(doesExist){
-        if(!doesExist){
+    try{
+        stats = fileSys.lstatSync(fullPath);
+        if(stats.isDirectory()){
             response.writeHeader(404, {"Content-Type": "text/plain"});
             response.write("404 Not Found\n");
             response.end();
@@ -65,7 +68,10 @@ app.use('/', function(request, response){
                 }
             });
         }
-    });
+    }
+    catch (e){
+        console.log("yo shit is broke mang");
+    }
 });
 my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);

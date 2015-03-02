@@ -16,8 +16,8 @@ app.use('/public/', function(request, response){
     console.log(fullPath);
 
 
-    path.exists(fullPath,function(exists){
-        if(!exists){
+    path.exists(fullPath,function(doesExist){
+        if(!doesExist){
             response.writeHeader(404, {"Content-Type": "text/plain"});
             response.write("404 Not Found\n");
             response.end();
@@ -45,8 +45,8 @@ app.use('/', function(request, response){
     var fullPath = path.join(process.cwd(), my_path);
     console.log("The full path is:");
     console.log(fullPath);
-    path.exists(fullPath,function(exists){
-        if(!exists){
+    path.exists(fullPath,function(doesExist){
+        if(!doesExist){
             response.writeHeader(404, {"Content-Type": "text/plain"});
             response.write("404 Not Found\n");
             response.end();

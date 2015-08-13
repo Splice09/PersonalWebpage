@@ -8,6 +8,7 @@ port = process.env.PORT || 5000,
 stats,
 htmlPath = "WebFrame.html";
 
+//This function uses the connect middleware to fetch the requested .css files or .js files
 app.use('/public/', function(request, response){
     console.log("you are in the first app.use() function");
     var my_path = url.parse(request.url).pathname;
@@ -41,7 +42,7 @@ app.use('/public/', function(request, response){
         console.log("yo shit is broke mang");
     }
 });
-
+//This use function uses the connect middleware to fetch the requested WebFrame.html file
 app.use('/', function(request, response){
     console.log("you are in the second app.use() function");
     var fullPath = path.join(process.cwd(), htmlPath);

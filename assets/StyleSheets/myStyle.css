@@ -6,7 +6,7 @@ header{
     margin: 0;
     padding: 0;
     /*google media query for height solution.*/
-    height: 8vh;
+    height: 5rem;
     background-color: #D6D6D6;
     visibility: visible;
 
@@ -44,9 +44,9 @@ body{
     height: 0;
     max-width: 100%;
     max-height: 100%;
-    border-left: 99vw solid transparent;
+    border-left: 100vw solid transparent;
     border-right: 0 solid transparent;
-    border-top: 98vh solid rgba(0, 0, 139, 0.49);
+    border-top: 95vh solid rgba(0, 0, 139, 0.49);
 
  }
 .bodyTriangle2{
@@ -59,9 +59,9 @@ body{
     height: 0;
     max-width: 100%;
     max-height: 100%;
-    border-left: 99vw solid transparent;
+    border-left: 100vw solid transparent;
     border-right: 0 solid transparent;
-    border-top: 36vh solid rgba(0, 0, 139, 0.57);
+    border-top: 33vh solid rgba(0, 0, 139, 0.57);
 }
 .bodyTriangle3{
     padding: 0;
@@ -74,8 +74,8 @@ body{
     max-width: 100%;
     max-height: 100%;
     border-left: 0 solid transparent;
-    border-right: 99vw solid transparent;
-    border-bottom: 98vh solid rgba(0, 0, 139, 0.74);
+    border-right: 100vw solid transparent;
+    border-bottom: 95vh solid rgba(0, 0, 139, 0.74);
 }
 .bodyTriangle4{
     padding: 0;
@@ -88,8 +88,8 @@ body{
     max-width: 100%;
     max-height: 100%;
     border-left: 0 solid transparent;
-    border-right: 39vw solid transparent;
-    border-bottom: 98vh solid #00006c;
+    border-right: 40vw solid transparent;
+    border-bottom: 95vh solid #00006c;
 }
 /*
 #bodyBox1{

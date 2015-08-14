@@ -39,7 +39,7 @@ body{
 .bodyTriangle1{
     padding: 0;
     position: absolute;
-    top: 0;
+    top: 5rem;
     left:0;
     width: 0;
     height: 0;
@@ -54,7 +54,7 @@ body{
     padding: 0;
     position: absolute;
     float: right;
-    top: 0;
+    top: 5rem;
     left:0;
     width: 0;
     height: 0;
@@ -68,7 +68,7 @@ body{
     padding: 0;
     position: absolute;
     float: right;
-    top: 0;
+    top: 5rem;
     left:0;
     width: 0;
     height: 0;
@@ -82,7 +82,7 @@ body{
     padding: 0;
     position: absolute;
     float: right;
-    top: 0;
+    top: 5rem;
     left:0;
     width: 0;
     height: 0;

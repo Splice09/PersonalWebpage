@@ -13,7 +13,19 @@
         <header>
             <H1 class = "pageHead">PATRICK FLEMING</H1>
         </header>
-        <script type ='text/javascript' src = 'public/assets/Scripts/datScript.js'></script>
+        <script type ='text/javascript'>
+            $(document).ready(function()
+            {
+                $("div.pageHead").hover(
+                        function () {
+                            $("div.fadeText1").fadeIn('slow');
+                        },
+                        function () {
+                            $("div.fadeText1").fadeOut('slow');
+                        }
+                );
+            });
+        </script>
         <div class="bodyTriangle1">
         </div>
         <div class="bodyTriangle2">

@@ -97,7 +97,7 @@ body{
     float: left;
     transition:1s;
 }
-.bodyTriangle2:hover .fadeText1{
+.bodyTriangle3:hover .fadeText1{
     opacity:1;
 }
 /*

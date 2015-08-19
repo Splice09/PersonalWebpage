@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-    $("div.bodyTriangle1").hover(
+    $("div.bodyTriangle2").hover(
         function () {
             $("div.fadeText1").fadeIn('slow');
         },

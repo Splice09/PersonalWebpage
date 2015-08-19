@@ -93,8 +93,12 @@ body{
     border-bottom: 95vh solid #00006c;
 }
 .fadeText1{
-    display:none;
+    opacity:0;
     float: left;
+    transition:1s;
+}
+.container:hover .fadeText1{
+    opacity:1;
 }
 /*
 #bodyBox1{

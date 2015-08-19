@@ -92,6 +92,10 @@ body{
     border-right: 40vw solid transparent;
     border-bottom: 95vh solid #00006c;
 }
+.fadeText1{
+    display:none;
+    float: left;
+}
 /*
 #bodyBox1{
     position: absolute;

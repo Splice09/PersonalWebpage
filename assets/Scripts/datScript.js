@@ -1,7 +1,11 @@
-/**
- * Created with JetBrains WebStorm.
- * User: Patrick
- * Date: 11/3/13
- * Time: 2:44 PM
- * To change this template use File | Settings | File Templates.
- */
+$(document).ready(function()
+{
+    $("div.bodyTriangle1").hover(
+        function () {
+            $("div.fadeText1").fadeIn('slow');
+        },
+        function () {
+            $("div.fadeText1").fadeOut('slow');
+        }
+    );
+});

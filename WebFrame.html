@@ -9,23 +9,24 @@
 </head>
 
 <body>
+    <script type ='text/javascript'>
+        $(document).ready(function()
+        {
+            $("div.container").hover(
+                function () {
+                    $("div.fadeText1").fadeIn('slow');
+                },
+                function () {
+                    $("div.fadeText1").fadeOut('slow');
+                }
+           );
+        });
+    </script>
     <div class="container">
         <header>
             <H1 class = "pageHead">PATRICK FLEMING</H1>
         </header>
-        <script type ='text/javascript'>
-            $(document).ready(function()
-            {
-                $("div.bodyTriangle3").hover(
-                        function () {
-                            $("div.fadeText1").fadeIn('slow');
-                        },
-                        function () {
-                            $("div.fadeText1").fadeOut('slow');
-                        }
-                );
-            });
-        </script>
+
         <div class="bodyTriangle1">
         </div>
         <div class="bodyTriangle2">

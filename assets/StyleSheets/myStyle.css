@@ -73,7 +73,7 @@ body{
 
     -webkit-transform: skewX(-72.4deg);
     -ms-transform: skewX(-72.4deg);
-    transform: translate(63rem, 4rem) rotate(5deg) skewX(-72.4deg) scale(2,2);
+    transform: translate(53rem, 3rem) rotate(5deg) skewX(-72.4deg) scale(2,2);
 }
 .bodyTriangle1:hover .triText1{
     opacity: 1;
@@ -99,7 +99,7 @@ body{
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:2rem;
+    font-size:1.5rem;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -107,7 +107,7 @@ body{
 
     -webkit-transform: skewX(-72.4deg);
     -ms-transform: skewX(-72.4deg);
-    transform: translate(26rem,1.5rem) rotate(188deg) skewX(80deg) scale(-1,-1);
+    transform: translate(33rem,4.5rem) rotate(11deg) skewX(77deg) skewY(-1deg) scale(4,1);
 }
 .bodyTriangle2:hover .triText2{
     opacity: 1;
@@ -128,8 +128,23 @@ body{
 
     transition: background-color .3s;
 }
-.bodyTriangle3:hover{
-    background-color: #d6d6d6;
+.triText3{
+    position:absolute;
+    transition:1s;
+    opacity: 0;
+    color: #D6D6D6;
+    font-size:3rem;
+
+    -webkit-transform-origin:0 0;
+    -ms-transform-origin:0 0;
+    transform-origin:0 0%;
+
+    -webkit-transform: skewX(-72.4deg);
+    -ms-transform: skewX(-67.4deg);
+    transform: translate(17rem, 2.3rem) rotate(193deg) skewX(-65.4deg) scale(-.7,-1);
+}
+.bodyTriangle3:hover .triText3{
+    opacity: 1;
 }
 .bodyTriangle4{
     position:absolute;
@@ -147,8 +162,23 @@ body{
 
     transition: background-color .3s;
 }
-.bodyTriangle4:hover{
-    background-color: #d6d6d6;
+.triText4{
+    position:absolute;
+    transition:1s;
+    opacity: 0;
+    color: #D6D6D6;
+    font-size:2rem;
+
+    -webkit-transform-origin:0 0;
+    -ms-transform-origin:0 0;
+    transform-origin:0 0%;
+
+    -webkit-transform: skewX(-72.4deg);
+    -ms-transform: skewX(-67.4deg);
+    transform: translate(26rem, 3.5rem) rotate(188deg) skewX(77.4deg) scale(-2,-1);
+}
+.bodyTriangle4:hover .triText4{
+    opacity: 1;
 }
 .triText{
     position:absolute;

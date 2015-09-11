@@ -18,7 +18,7 @@ header{
     padding: 0;
     /*google media query for height solution.*/
     height: 5rem;
-    background-color: #D6D6D6;
+    background-color: #d6d6d6;
     visibility: visible;
 }
 body{
@@ -33,7 +33,7 @@ body{
     font-size: 300%;
     display:block;
     margin: 0;
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -42,14 +42,14 @@ body{
     top:5rem;
     height:100%;
     width:100%;
-    background-color:green;
+    background-color: #008000;
     overflow:hidden;
 }
 .bodyTriangle1{
     position:absolute;
     width:100%;
     height:100%;
-    background : rgba(0, 0, 139, 0.57);
+    background : rgba(0, 0, 139, 0.56);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -62,45 +62,45 @@ body{
     transition: background-color .3s;
 }
 .bodyTriangle1:hover{
-    background-color:#D6D6D6;
+    background-color: #d6d6d6;
 }
 .bodyTriangle2{
     position:absolute;
     width:100%;
     height:100%;
-    background : rgba(0, 0, 139, 0.49);
+    background : rgba(0, 0, 139, 0.48);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
 
-    -webkit-transform: rotate(17.6deg);
-    -ms-transform: rotate(17.6deg);
+    -webkit-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
+    -ms-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
     transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
 
     transition: background-color .3s;
 }
 .bodyTriangle2:hover{
-    background-color:#D6D6D6;
+    background-color: #d6d6d6;
 }
 .bodyTriangle3{
     position:absolute;
     width:100%;
     height:100%;
-    background : rgba(0, 0, 139, 0.74);
+    background : rgba(0, 0, 139, 0.73);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
 
-    -webkit-transform: skewX(72.4deg);
-    -ms-transform: skewX(72.4deg);
+    -webkit-transform: rotate(10deg) skewX(72.4deg) scale(2,2);
+    -ms-transform: rotate(10deg) skewX(72.4deg) scale(2,2);
     transform: rotate(10deg) skewX(72.4deg) scale(2,2);
 
     transition: background-color .3s;
 }
 .bodyTriangle3:hover{
-    background-color:#D6D6D6;
+    background-color: #d6d6d6;
 }
 .bodyTriangle4{
     position:absolute;
@@ -112,14 +112,14 @@ body{
     -ms-transform-origin:0 0;
     transform-origin:0 0;
 
-    -webkit-transform: skewX(-72.4deg);
-    -ms-transform: skewX(-72.4deg);
-    transform: rotate(50deg) skewX(-72.4deg);
+    -webkit-transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
+    -ms-transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
+    transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
 
     transition: background-color .3s;
 }
 .bodyTriangle4:hover{
-    background-color:#D6D6D6;
+    background-color: #d6d6d6;
 }
 .triText{
     position:absolute;

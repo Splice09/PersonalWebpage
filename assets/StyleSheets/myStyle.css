@@ -73,7 +73,7 @@ body{
 
     -webkit-transform: skewX(-72.4deg);
     -ms-transform: skewX(-72.4deg);
-    transform: translate(63rem, 4rem) rotate(0) skewX(-72.4deg) scale(2,2);
+    transform: translate(63rem, 4rem) rotate(5deg) skewX(-72.4deg) scale(2,2);
 }
 .bodyTriangle1:hover .triText1{
     opacity: 1;

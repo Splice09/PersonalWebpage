@@ -94,8 +94,23 @@ body{
 
     transition: background-color .3s;
 }
-.bodyTriangle2:hover{
-    background-color: #d6d6d6;
+.triText2{
+    position:absolute;
+    transition:1s;
+    opacity: 0;
+    color: #D6D6D6;
+    font-size:2rem;
+
+    -webkit-transform-origin:0 0;
+    -ms-transform-origin:0 0;
+    transform-origin:0 0%;
+
+    -webkit-transform: skewX(-72.4deg);
+    -ms-transform: skewX(-72.4deg);
+    transform: translate(26rem,1.5rem) rotate(188deg) skewX(80deg) scale(-1,-1);
+}
+.bodyTriangle2:hover .triText2{
+    opacity: 1;
 }
 .bodyTriangle3{
     position:absolute;

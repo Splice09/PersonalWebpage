@@ -31,7 +31,7 @@ app.use('/public/', function(request, response){
                     response.end();
                 }
                 else{
-                    if(fullPath == "/public/assets/StyleSheets/myStyle.css"){
+                    if(fullPath == "/app/assets/StyleSheets/myStyle.css"){
                         response.writeHeader(200, {"Content-Type": "text/css"});
                         response.write(file, "binary");
                         response.end();

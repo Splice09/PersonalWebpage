@@ -31,9 +31,16 @@ app.use('/public/', function(request, response){
                     response.end();
                 }
                 else{
-                    response.writeHeader(200);
-                    response.write(file, "binary");
-                    response.end();
+                    if(fullPath == "/public/assets/StyleSheets/myStyle.css"){
+                        response.writeHeader(200, {"Content-Type": "text/css"});
+                        response.write(file, "binary");
+                        response.end();
+                    }
+                    else{
+                        response.writeHeader(200);
+                        response.write(file, "binary");
+                        response.end();
+                    }
                 }
             });
         }

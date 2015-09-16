@@ -39,7 +39,7 @@ body{
 
 .triContainer{
     position:absolute;
-    top:4.6rem;
+    top:5rem;
     height:100%;
     width:100%;
     background-color: #008000;
@@ -49,21 +49,18 @@ body{
     position:absolute;
     width:100%;
     height:100%;
-    top: 0;
     background : rgb(115, 115, 190);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
-    transform-origin:0% 0%;
+    transform-origin:0 0;
 
-    -webkit-transform: skewX(0deg);
-    -ms-transform: skewX(0deg);
-    transform: rotate(0deg) skewX(0deg);
+    -webkit-transform: skewX(72.4deg);
+    -ms-transform: skewX(72.4deg);
+    transform: skewX(72.4deg);
 
     transition: background-color .3s;
 }
-
-/*
 .triText1{
     position:absolute;
     transition:1s;
@@ -81,14 +78,11 @@ body{
 .bodyTriangle1:hover .triText1{
     opacity: 1;
 }
-*/
-
 .bodyTriangle2{
     position:absolute;
-    width:150%;
-    height:150%;
-    top: 0;
-    background : rgb(129, 129, 197);
+    width:100%;
+    height:100%;
+    background : rgb(67, 67, 168);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -96,11 +90,10 @@ body{
 
     -webkit-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
     -ms-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
-    transform: rotate(10deg);
+    transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
 
-    transition: all 1s ease 0s;
+    transition: background-color .3s;
 }
-/*
 .triText2{
     position:absolute;
     transition:1s;
@@ -119,14 +112,11 @@ body{
 .bodyTriangle2:hover .triText2{
     opacity: 1;
 }
-*/
-
 .bodyTriangle3{
     position:absolute;
-    width:150%;
-    height:150%;
-    top: 0;
-    background : rgb(67, 67, 167);
+    width:100%;
+    height:100%;
+    background : rgb(130, 130, 198);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -134,11 +124,10 @@ body{
 
     -webkit-transform: rotate(10deg) skewX(72.4deg) scale(2,2);
     -ms-transform: rotate(10deg) skewX(72.4deg) scale(2,2);
-    transform: rotate(27deg);
+    transform: rotate(10deg) skewX(72.4deg) scale(2,2);
 
-    transition: all 1s ease 0s;
+    transition: background-color .3s;
 }
-/*
 .triText3{
     position:absolute;
     transition:1s;
@@ -157,13 +146,10 @@ body{
 .bodyTriangle3:hover .triText3{
     opacity: 1;
 }
-*/
-
 .bodyTriangle4{
     position:absolute;
-    width:150%;
-    height:150%;
-    top: 0;
+    width:100%;
+    height:100%;
     background : #00006c;
 
     -webkit-transform-origin:0 0;
@@ -172,11 +158,10 @@ body{
 
     -webkit-transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
     -ms-transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
-    transform: rotate(50deg);
+    transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
 
-    transition: all 1s ease 0s;
+    transition: background-color .3s;
 }
-/*
 .triText4{
     position:absolute;
     transition:1s;
@@ -195,7 +180,6 @@ body{
 .bodyTriangle4:hover .triText4{
     opacity: 1;
 }
-*/
 .triText{
     position:absolute;
     top:50%;

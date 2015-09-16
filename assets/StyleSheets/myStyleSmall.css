@@ -49,16 +49,11 @@ body{
     position:absolute;
     width:100%;
     height:100%;
-    top: 0;
     background : rgb(115, 115, 190);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0% 0%;
-
-    -webkit-transform: skewX(0deg);
-    -ms-transform: skewX(0deg);
-    transform: rotate(0deg) skewX(0deg);
 
     transition: background-color .3s;
 }
@@ -85,9 +80,9 @@ body{
 
 .bodyTriangle2{
     position:absolute;
-    width:150%;
-    height:150%;
-    top: 0;
+    width:100%;
+    height:100%;
+    top: 25%;
     background : rgb(129, 129, 197);
 
     -webkit-transform-origin:0 0;
@@ -96,7 +91,7 @@ body{
 
     -webkit-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
     -ms-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
-    transform: rotate(10deg);
+    transform: rotate(0deg);
 
     transition: all 1s ease 0s;
 }
@@ -123,18 +118,18 @@ body{
 
 .bodyTriangle3{
     position:absolute;
-    width:150%;
-    height:150%;
-    top: 0;
+    width:100%;
+    height:100%;
+    top: 50%;
     background : rgb(67, 67, 167);
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
 
-    -webkit-transform: rotate(10deg) skewX(72.4deg) scale(2,2);
-    -ms-transform: rotate(10deg) skewX(72.4deg) scale(2,2);
-    transform: rotate(27deg);
+    -webkit-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
+    -ms-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
+    transform: rotate(0deg);
 
     transition: all 1s ease 0s;
 }
@@ -161,18 +156,18 @@ body{
 
 .bodyTriangle4{
     position:absolute;
-    width:150%;
-    height:150%;
-    top: 0;
+    width:100%;
+    height:100%;
+    top:75%;
     background : #00006c;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
 
-    -webkit-transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
-    -ms-transform: rotate(50deg) skewX(-72.4deg) scale(2,2);
-    transform: rotate(50deg);
+    -webkit-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
+    -ms-transform: rotate(17.6deg) skewX(-73deg) scale(2,2);
+    transform: rotate(0deg);
 
     transition: all 1s ease 0s;
 }

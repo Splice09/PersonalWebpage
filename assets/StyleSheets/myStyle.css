@@ -63,25 +63,29 @@ body{
     transition: background-color .3s;
 }
 
-/*
+
 .triText1{
     position:absolute;
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
     font-size:2.5rem;
+    left:42%;
+    top:1.5%;
+
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
 
-    -webkit-transform: translate(52rem, 2rem) rotate(5deg) skewX(-72.4deg) scale(2,2);
-    -ms-transform: translate(52rem, 2rem) rotate(5deg) skewX(-72.4deg) scale(2,2);
-    transform: translate(52rem, 2rem) rotate(5deg) skewX(-72.4deg) scale(2,2);
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+
 }
 .bodyTriangle1:hover .triText1{
     opacity: 1;
 }
-*/
+
 
 .bodyTriangle2{
     position:absolute;
@@ -101,26 +105,29 @@ body{
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
-/*
+
 .triText2{
     position:absolute;
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:1.3rem;
+    font-size:2.5rem;
+    left:26%;
+    top:2%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
 
-    -webkit-transform: translate(33rem,4.5rem) rotate(11deg) skewX(77deg) skewY(-1deg) scale(4,1);
-    -ms-transform: translate(33rem,4.5rem) rotate(11deg) skewX(77deg) skewY(-1deg) scale(4,1);
-    transform: translate(33rem,4.5rem) rotate(11deg) skewX(77deg) skewY(-1deg) scale(4,1);
+    -webkit-transform: transform: rotate(8deg);
+    -ms-transform: transform: rotate(8deg);
+    transform: rotate(8deg);
+
 }
 .bodyTriangle2:hover .triText2{
     opacity: 1;
 }
-*/
+
 
 .bodyTriangle3{
     position:absolute;
@@ -140,26 +147,29 @@ body{
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
-/*
+
 .triText3{
     position:absolute;
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:3.5rem;
+    font-size:2.5rem;
+    left: 24%;
+    top:3.5%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
 
-    -webkit-transform: translate(16.5rem, 2rem) rotate(193deg) skewX(-63.4deg) scale(-.5,-1.2);
-    -ms-transform: translate(16.5rem, 2rem) rotate(193deg) skewX(-63.4deg) scale(-.5,-1.2);
-    transform: translate(16.5rem, 2rem) rotate(193deg) skewX(-63.4deg) scale(-.5,-1.2);
+    -webkit-transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
+    transform: rotate(11deg);
+
 }
 .bodyTriangle3:hover .triText3{
     opacity: 1;
 }
-*/
+
 
 .bodyTriangle4{
     position:absolute;
@@ -179,31 +189,25 @@ body{
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
-/*
+
 .triText4{
     position:absolute;
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:2rem;
+    font-size:2.5rem;
+    left:23%;
+    top:8%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
 
-    -webkit-transform: translate(26rem, 3.5rem) rotate(188deg) skewX(77.4deg) scale(-2,-1);
-    -ms-transform: translate(26rem, 3.5rem) rotate(188deg) skewX(77.4deg) scale(-2,-1);
-    transform: translate(26rem, 3.5rem) rotate(188deg) skewX(77.4deg) scale(-2,-1);
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+
 }
 .bodyTriangle4:hover .triText4{
     opacity: 1;
-}
-*/
-.triText{
-    position:absolute;
-    top:50%;
-    opacity:0;
-    color:black;
-    float:left;
-    transition:1s;
 }

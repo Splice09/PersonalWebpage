@@ -23,6 +23,7 @@ header{
 }
 body{
     margin:0;
+    padding:0;
 }
 .pageHead{
     padding-top:.7rem;

@@ -62,7 +62,7 @@ body{
 .triText1{
     position:absolute;
     transition:1s;
-    opacity: 0;
+    opacity: 1;
     color: #D6D6D6;
     font-size:2.5rem;
     left:5%;
@@ -77,9 +77,7 @@ body{
     transform: rotate(0deg);
 
 }
-.bodyTriangle1:hover .triText1{
-    opacity: 1;
-}
+
 
 .bodyTriangle2{
     position:absolute;
@@ -102,7 +100,7 @@ body{
 .triText2{
     position:absolute;
     transition:1s;
-    opacity: 0;
+    opacity: 1;
     color: #D6D6D6;
     font-size:2.5rem;
     left:5%;
@@ -117,9 +115,7 @@ body{
     transform: rotate(0deg);
 
 }
-.bodyTriangle2:hover .triText2{
-    opacity: 1;
-}
+
 
 .bodyTriangle3{
     position:absolute;
@@ -142,7 +138,7 @@ body{
 .triText3{
     position:absolute;
     transition:1s;
-    opacity: 0;
+    opacity: 1;
     color: #D6D6D6;
     font-size:2.5rem;
     left:5%;
@@ -157,9 +153,7 @@ body{
     transform: rotate(0deg);
 
 }
-.bodyTriangle3:hover .triText3{
-    opacity: 1;
-}
+
 
 .bodyTriangle4{
     position:absolute;
@@ -182,7 +176,7 @@ body{
 .triText4{
     position:absolute;
     transition:1s;
-    opacity: 0;
+    opacity: 1;
     color: #D6D6D6;
     font-size:2.5rem;
     left:5%;
@@ -197,9 +191,7 @@ body{
     transform: rotate(0deg);
 
 }
-.bodyTriangle4:hover .triText4{
-    opacity: 1;
-}
+
 .triText{
     position:absolute;
     top:50%;

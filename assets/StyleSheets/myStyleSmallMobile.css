@@ -71,7 +71,7 @@ body{
     color: #D6D6D6;
     font-size:2rem;
     left:38%;
-    top:.3%;
+    top:0%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -112,7 +112,7 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
-    left:23%;
+    left:20%;
     top:1%;
 
     -webkit-transform-origin:0 0;
@@ -154,8 +154,8 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
-    left: 20%;
-    top:1.5%;
+    left: 17%;
+    top:1.2%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;

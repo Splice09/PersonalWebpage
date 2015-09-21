@@ -1,4 +1,4 @@
-@media only screen and (max-device-width:640px) {
+@media only screen and (max-device-width:640px) and (max-width:640px) {
     .container{
         position:absolute;
         padding:0;

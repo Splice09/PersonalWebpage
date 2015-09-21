@@ -42,6 +42,7 @@ app.use('/public/', function(request, response){
                         response.end();
                     }
                     else if(fullPath =="/app/assets/StyleSheets/myStyleSmallMobile.css"){
+                        console.log("we made the check though");
                         response.writeHeader(200, {"Content-Type": "text/css"});
                         response.write(file, "binary");
                         response.end();
@@ -56,7 +57,7 @@ app.use('/public/', function(request, response){
         }
     }
     catch (e){
-        console.log("yo shit is broke mang");
+        console.log("yo shit is broke mang forreal");
     }
 });
 //This use function uses the connect middleware to fetch the requested WebFrame.html file

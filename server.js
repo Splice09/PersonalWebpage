@@ -41,6 +41,11 @@ app.use('/public/', function(request, response){
                         response.write(file, "binary");
                         response.end();
                     }
+                    else if(fullPath =="/app/assets/StyleSheets/myStyleSmallMobile.css"){
+                        response.writeHeader(200, {"Content-Type": "text/css"});
+                        response.write(file, "binary");
+                        response.end();
+                    }
                     else{
                         response.writeHeader(200);
                         response.write(file, "binary");

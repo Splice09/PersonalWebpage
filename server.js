@@ -42,7 +42,7 @@ app.use('/public/', function(request, response){
                         response.end();
                     }
                     else if(fullPath =="/app/assets/StyleSheets/myStyleSmallMobile.css"){
-                        console.log("we made the check though");
+                        console.log("if we got this far, Kayla is awesome!");
                         response.writeHeader(200, {"Content-Type": "text/css"});
                         response.write(file, "binary");
                         response.end();

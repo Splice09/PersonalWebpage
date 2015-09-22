@@ -1,5 +1,6 @@
 .container{
     position:absolute;
+    min-height:510px;
     padding:0;
     margin:0;
     height: 100%;

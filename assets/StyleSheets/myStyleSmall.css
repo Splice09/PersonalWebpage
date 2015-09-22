@@ -17,7 +17,7 @@ header{
     margin: 0;
     padding: 0;
     /*google media query for height solution.*/
-    height: 5rem;
+    height: 2rem;
     background-color: #d6d6d6;
     visibility: visible;
 }
@@ -31,7 +31,7 @@ body{
     font-family: "depot-new-web",sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 300%;
+    font-size: 5rem;
     display:block;
     margin: 0;
     color: #ffffff;
@@ -65,7 +65,7 @@ body{
     transition:1s;
     opacity: 1;
     color: #D6D6D6;
-    font-size:2.5rem;
+    font-size:1.5rem;
     left:5%;
     top:10%;
 
@@ -103,7 +103,7 @@ body{
     transition:1s;
     opacity: 1;
     color: #D6D6D6;
-    font-size:2.5rem;
+    font-size:1.5rem;
     left:5%;
     top:10%;
 
@@ -141,7 +141,7 @@ body{
     transition:1s;
     opacity: 1;
     color: #D6D6D6;
-    font-size:2.5rem;
+    font-size:1.5rem;
     left:5%;
     top:10%;
 
@@ -179,7 +179,7 @@ body{
     transition:1s;
     opacity: 1;
     color: #D6D6D6;
-    font-size:2.5rem;
+    font-size:1.5rem;
     left:5%;
     top:10%;
 

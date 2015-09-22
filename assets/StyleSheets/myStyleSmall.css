@@ -26,12 +26,12 @@ body{
     padding:0;
 }
 .pageHead{
-    padding-top:0;
+    padding-top:.2rem;
     letter-spacing: 2rem;
     font-family: "depot-new-web",sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 3.5rem;
+    font-size: 3rem;
     display:block;
     margin: 0 auto;
     color: #ffffff;

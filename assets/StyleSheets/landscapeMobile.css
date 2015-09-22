@@ -17,7 +17,7 @@ header{
     margin: 0;
     padding: 0;
     /*google media query for height solution.*/
-    height: 8%;
+    height: 12%;
     background-color: #d6d6d6;
     visibility: visible;
 }
@@ -30,7 +30,7 @@ body{
     font-family: "depot-new-web",sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display:block;
     margin: 0 auto;
     color: #ffffff;
@@ -39,7 +39,7 @@ body{
 
 .triContainer{
     position:absolute;
-    top:8%;
+    top:12%;
     height:100%;
     width:100%;
     background-color: #008000;

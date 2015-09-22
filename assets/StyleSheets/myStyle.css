@@ -18,7 +18,7 @@
         margin: 0;
         padding: 0;
         /*google media query for height solution.*/
-        height: 5rem;
+        height: 12%;
         background-color: #d6d6d6;
         visibility: visible;
     }
@@ -31,7 +31,7 @@
         font-family: "depot-new-web",sans-serif;
         font-style: normal;
         font-weight: 100;
-        font-size: 300%;
+        font-size: 3rem;
         display:block;
         margin: 0;
         color: #ffffff;

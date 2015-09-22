@@ -25,7 +25,7 @@ body{
     margin:0;
 }
 .pageHead{
-    padding-top:.3rem;
+    padding-top:0;
     letter-spacing: 2rem;
     font-family: "depot-new-web",sans-serif;
     font-style: normal;

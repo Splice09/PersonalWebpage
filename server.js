@@ -41,7 +41,7 @@ app.use('/public/', function(request, response){
                         response.write(file, "binary");
                         response.end();
                     }
-                    else if(fullPath =="/app/assets/StyleSheets/myStyleSmallMobile.css"){
+                    else if(fullPath =="/app/assets/StyleSheets/landscapeMobile.css"){
                         console.log("if we got this far, Kayla is awesome!");
                         response.writeHeader(200, {"Content-Type": "text/css"});
                         response.write(file, "binary");

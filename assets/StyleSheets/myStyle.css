@@ -18,6 +18,7 @@ header{
     padding: 0;
     /*google media query for height solution.*/
     height: 8%;
+    min-height: 68px;
     background-color: #d6d6d6;
     visibility: visible;
 }

@@ -18,6 +18,7 @@ header{
     padding: 0;
     /*google media query for height solution.*/
     height: 12%;
+
     background-color: #d6d6d6;
     visibility: visible;
 }

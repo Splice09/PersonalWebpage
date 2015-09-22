@@ -17,7 +17,7 @@ header{
     margin: 0;
     padding: 0;
     /*google media query for height solution.*/
-    height: 15%;
+    height: 8%;
     background-color: #d6d6d6;
     visibility: visible;
 }
@@ -39,7 +39,7 @@ body{
 
 .triContainer{
     position:absolute;
-    top:15%;
+    top:8%;
     height:100%;
     width:100%;
     background-color: #008000;

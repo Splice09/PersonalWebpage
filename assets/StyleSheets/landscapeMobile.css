@@ -4,6 +4,7 @@
     margin:0;
     height: 100%;
     width:100%;
+    min-height:100%;
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
@@ -116,7 +117,7 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:1.2rem;
-    left:20%;
+    left:19%;
     top:1%;
 
     -webkit-transform-origin:0 0;

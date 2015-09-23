@@ -4,45 +4,47 @@
     margin:0;
     height: 100%;
     width:100%;
+    min-height:100%;
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
+    display: block;
 }
 
-header{
+.header{
     display: block;
     top:0;
     left:0;
     width: 100%;
     margin: 0;
     padding: 0;
-    /*google media query for height solution.*/
-    height: 12%;
-
+    height: 8%;
+    min-height:45px;
     background-color: #d6d6d6;
     visibility: visible;
+    transition:1s;
 }
 body{
     margin:0;
     padding:0;
 }
 .pageHead{
-    padding-top:.3rem;
+    padding-top:0;
     letter-spacing: 2rem;
     font-family: "depot-new-web",sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 2.8rem;
+    font-size: 1.2rem;
     display:block;
     margin: auto;
     margin-right:-2rem;
     color: #ffffff;
     text-align: center;
+    transition:1s;
 }
 
 .triContainer{
     position:absolute;
-    top:12%;
     height:100%;
     width:100%;
     background-color: #008000;

@@ -19,7 +19,7 @@
     margin:0;
     padding: 0;
     /*google media query for height solution.*/
-    height: 8%;
+    height: 5%;
     min-height: 30px;
     background-color: #d6d6d6;
     visibility: visible;
@@ -45,7 +45,7 @@ body{
 
 .triContainer{
     position:absolute;
-    top:12%;
+    top:5%;
     height:100%;
     width:100%;
     background-color: #008000;

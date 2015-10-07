@@ -216,3 +216,12 @@ body{
 .bodyTriangle4:hover .triText4{
     opacity: 1;
 }
+
+.aboutMe{
+    position:absolute;
+    display:none;
+    width:50%;
+    height:100%;
+    color:red;
+    left:50%;
+}

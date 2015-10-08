@@ -46,10 +46,9 @@
     <script>
         //function to show and hide divs on triangle click
         $( document ).ready(function() {
-            $(".bodyTriangle1").on('click',function(e){
-                $(".aboutMe").show();
+            $(".bodyTriangle1").click(function(){
+                $(".aboutMe").fadeToggle("slow");
             });
-
         });
     </script>
 </body>

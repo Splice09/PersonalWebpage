@@ -222,6 +222,7 @@ body{
     display:none;
     width:50%;
     height:100%;
-    color:red;
+    background:rgb(115, 115, 190);
+    top:0;
     left:50%;
 }

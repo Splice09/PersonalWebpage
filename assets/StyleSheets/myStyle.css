@@ -227,11 +227,20 @@ body{
     left:50%;
 }
 .currentWork{
+      position:absolute;
+      display:none;
+      width:50%;
+      height:100%;
+      background:rgb(129, 129, 197);
+      top:0;
+      left:50%;
+}
+.pastProjects{
     position:absolute;
     display:none;
     width:50%;
     height:100%;
-    background:rgb(129, 129, 197);
+    background:rgb(67, 67, 167);
     top:0;
     left:50%;
 }

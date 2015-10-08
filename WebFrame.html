@@ -48,12 +48,19 @@
         $( document ).ready(function() {
             $(".bodyTriangle1").click(function(){
                 $(".currentWork").fadeOut("slow");
+                $(".pastProjects").fadeOut("slow");
                 $(".aboutMe").fadeToggle("slow");
 
             });
             $(".bodyTriangle2").click(function(){
                 $(".aboutMe").fadeOut("slow");
+                $(".pastProjects").fadeOut("slow");
                 $(".currentWork").fadeToggle("slow");
+            });
+            $(".bodyTriangle3").click(function(){
+                $(".aboutMe").fadeOut("slow");
+                $(".currentWork").fadeOut("slow");
+                $(".pastProjects").fadeToggle("slow");
             });
         });
     </script>

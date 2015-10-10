@@ -76,7 +76,7 @@ body{
     color: #D6D6D6;
     font-size:2.5rem;
     left:28%;
-    top:3%;
+    top:0;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -118,7 +118,7 @@ body{
     color: #D6D6D6;
     font-size:2.5rem;
     left:17.5%;
-    top:3%;
+    top:2%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -160,7 +160,7 @@ body{
     color: #D6D6D6;
     font-size:2.5rem;
     left: 17%;
-    top:7%;
+    top:3%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -202,7 +202,7 @@ body{
     color: #D6D6D6;
     font-size:2.5rem;
     left:17%;
-    top:8%;
+    top:4%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;

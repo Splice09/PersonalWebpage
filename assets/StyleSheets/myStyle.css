@@ -75,8 +75,8 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:2.5rem;
-    left:36%;
-    top:1.8%;
+    left:28%;
+    top:3%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -117,8 +117,8 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:2.5rem;
-    left:20%;
-    top:2%;
+    left:17.5%;
+    top:3%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -126,7 +126,7 @@ body{
 
     -webkit-transform: transform: rotate(8deg);
     -ms-transform: transform: rotate(8deg);
-    transform: rotate(8deg);
+    transform: rotate(10deg);
 
 }
 .bodyTriangle2:hover .triText2{
@@ -159,8 +159,8 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:2.5rem;
-    left: 22%;
-    top:3.5%;
+    left: 17%;
+    top:7%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -168,7 +168,7 @@ body{
 
     -webkit-transform: rotate(11deg);
     -ms-transform: rotate(11deg);
-    transform: rotate(11deg);
+    transform: rotate(14deg);
 
 }
 .bodyTriangle3:hover .triText3{
@@ -201,7 +201,7 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:2.5rem;
-    left:20%;
+    left:17%;
     top:8%;
 
     -webkit-transform-origin:0 0;

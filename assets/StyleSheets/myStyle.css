@@ -82,9 +82,9 @@ body{
     -ms-transform-origin:0 0;
     transform-origin:0 0;
 
-    -webkit-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
 
 }
 .bodyTriangle1:hover .triText1{
@@ -124,9 +124,9 @@ body{
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
 
-    -webkit-transform: transform: rotate(8deg);
-    -ms-transform: transform: rotate(8deg);
-    transform: rotate(10deg);
+    -webkit-transform: transform: rotate(4deg);
+    -ms-transform: transform: rotate(4deg);
+    transform: rotate(4deg);
 
 }
 .bodyTriangle2:hover .triText2{
@@ -166,9 +166,9 @@ body{
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
 
-    -webkit-transform: rotate(11deg);
-    -ms-transform: rotate(11deg);
-    transform: rotate(14deg);
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
 
 }
 .bodyTriangle3:hover .triText3{
@@ -208,9 +208,9 @@ body{
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
 
-    -webkit-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
 
 }
 .bodyTriangle4:hover .triText4{
@@ -220,27 +220,27 @@ body{
 .aboutMe{
     position:absolute;
     display:none;
-    width:50%;
+    width:62%;
     height:100%;
     background:rgb(115, 115, 190);
     top:0;
-    left:50%;
+    right:0;
 }
 .currentWork{
       position:absolute;
       display:none;
-      width:50%;
+      width:62%;
       height:100%;
       background:rgb(129, 129, 197);
       top:0;
-      left:50%;
+      right:0;
 }
 .pastProjects{
     position:absolute;
     display:none;
-    width:50%;
+    width:62%;
     height:100%;
     background:rgb(67, 67, 167);
     top:0;
-    left:50%;
+    right:0;
 }

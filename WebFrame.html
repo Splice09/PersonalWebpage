@@ -47,19 +47,19 @@
         //function to show and hide divs on triangle click
         $( document ).ready(function() {
             $(".bodyTriangle1").click(function(){
-                $(".currentWork").fadeOut("slow");
-                $(".pastProjects").fadeOut("slow");
+                $(".currentWork").fadeOut("fast");
+                $(".pastProjects").fadeOut("fast");
                 $(".aboutMe").fadeToggle("slow");
 
             });
             $(".bodyTriangle2").click(function(){
-                $(".aboutMe").fadeOut("slow");
-                $(".pastProjects").fadeOut("slow");
+                $(".aboutMe").fadeOut("fast");
+                $(".pastProjects").fadeOut("fast");
                 $(".currentWork").fadeToggle("slow");
             });
             $(".bodyTriangle3").click(function(){
-                $(".aboutMe").fadeOut("slow");
-                $(".currentWork").fadeOut("slow");
+                $(".aboutMe").fadeOut("fast");
+                $(".currentWork").fadeOut("fast");
                 $(".pastProjects").fadeToggle("slow");
             });
         });

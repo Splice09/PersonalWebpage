@@ -74,8 +74,8 @@ body{
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:2.5rem;
-    left:28%;
+    font-size:2rem;
+    left:25%;
     top:0;
 
     -webkit-transform-origin:0 0;
@@ -116,8 +116,8 @@ body{
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:2.5rem;
-    left:17.5%;
+    font-size:2rem;
+    left:16%;
     top:2%;
 
     -webkit-transform-origin:0 0;
@@ -158,8 +158,8 @@ body{
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:2.5rem;
-    left: 17%;
+    font-size:2rem;
+    left: 16%;
     top:3%;
 
     -webkit-transform-origin:0 0;
@@ -200,8 +200,9 @@ body{
     transition:1s;
     opacity: 0;
     color: #D6D6D6;
-    font-size:2.5rem;
-    left:17%;
+    font-size:2rem;
+    font-size:2rem;
+    left:16%;
     top:4%;
 
     -webkit-transform-origin:0 0;

@@ -221,7 +221,7 @@ body{
 .aboutMe{
     position:absolute;
     display:none;
-    width:62%;
+    width:59%;
     height:100%;
     background:rgb(115, 115, 190);
     top:0;
@@ -230,7 +230,7 @@ body{
 .currentWork{
       position:absolute;
       display:none;
-      width:62%;
+      width:59%;
       height:100%;
       background:rgb(129, 129, 197);
       top:0;
@@ -239,7 +239,7 @@ body{
 .pastProjects{
     position:absolute;
     display:none;
-    width:62%;
+    width:59%;
     height:100%;
     background:rgb(67, 67, 167);
     top:0;

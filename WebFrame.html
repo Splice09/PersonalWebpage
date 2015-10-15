@@ -52,15 +52,7 @@
                 $('.currentWork').fadeOut('fast');
                 $('.pastProjects').fadeOut('fast');
                 $('.aboutMe').fadeToggle('slow');
-                if($('.aboutMe').is(':hidden')){
-                    $('.triText1').animate({opacity:1,
-                                           visibility:visible}, "slow");
-
-                }
-                else{
-                    $('.triText1').animate({opacity:0,
-                                            visibility:hidden}, "slow");
-                }
+                $('.bodyTriangle1').addClass('selected')
 
             });
             $(".bodyTriangle2").click(function(){

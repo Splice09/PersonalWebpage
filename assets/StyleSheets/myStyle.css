@@ -88,6 +88,10 @@ body{
     transform: rotate(4deg);
 
 }
+.triText1.selected{
+    opacity:1;
+    visibility:visible;
+}
 .bodyTriangle1:hover .triText1{
     visibility:visible;
     opacity:1;

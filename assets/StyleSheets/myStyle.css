@@ -71,7 +71,7 @@ body{
 
 .triText1{
     position:absolute;
-    transition:visibility 0s, opacity 1s;
+    transition:1s;
     visibility:hidden;
     opacity:0;
     color: #D6D6D6;
@@ -115,7 +115,7 @@ body{
 
 .triText2{
     position:absolute;
-    transition:visibility 0s, opacity 1s;
+    transition:1s;
     visibility:hidden;
     opacity: 0;
     color: #D6D6D6;
@@ -159,7 +159,7 @@ body{
 
 .triText3{
     position:absolute;
-    transition:visibility 0s, opacity 1s;
+    transition:1s;
     visibility: hidden;
     opacity: 0;
     color: #D6D6D6;
@@ -203,7 +203,7 @@ body{
 
 .triText4{
     position:absolute;
-    transition:visibility 0s, opacity 1s;
+    transition:1s;
     visibility:hidden;
     opacity: 0;
     color: #D6D6D6;

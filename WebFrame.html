@@ -48,30 +48,39 @@
     <script>
         //function to show and hide divs on triangle click
         $( document ).ready(function() {
-            $(".bodyTriangle1").click(function(){
-                $(".currentWork").fadeOut("fast");
-                $(".pastProjects").fadeOut("fast");
-                $(".aboutMe").fadeToggle("slow");
-                $(".triText2").hide();
-                $(".triText3").hide();
-                $(".triText1").show();
+            $('.bodyTriangle1').click(function(){
+                $('.currentWork').fadeOut('fast');
+                $('.pastProjects').fadeOut('fast');
+                $('.aboutMe').fadeToggle('slow');
+                if($('.aboutMe').is(':visible')){
+                    $('.triText1').animate({'opacity':1});
+                }
+                else{
+                    $('.triText1').animate({'opacity':0});
+                }
 
             });
             $(".bodyTriangle2").click(function(){
-                $(".aboutMe").fadeOut("fast");
-                $(".pastProjects").fadeOut("fast");
-                $(".currentWork").fadeToggle("slow");
-                $(".triText1").hide();
-                $(".triText3").hide();
-                $(".triText2").show();
+                $('.aboutMe').fadeOut('fast');
+                $('.pastProjects').fadeOut('fast');
+                $('.currentWork').fadeToggle('slow');
+                if($('.currentWork').is(':visible')){
+                    $('.triText2').animate({'opacity':1});
+                }
+                else{
+                    $('.triText2').animate({'opacity':0});
+                }
             });
-            $(".bodyTriangle3").click(function(){
-                $(".aboutMe").fadeOut("fast");
-                $(".currentWork").fadeOut("fast");
-                $(".pastProjects").fadeToggle("slow");
-                $(".triText1").hide();
-                $(".triText2").hide();
-                $(".triText3").show();
+            $('.bodyTriangle3').click(function(){
+                $('.aboutMe').fadeOut('fast');
+                $('.currentWork').fadeOut('fast');
+                $('.pastProjects').fadeToggle('slow');
+                if($('.pastProjects').is(':visible')){
+                    $('.triText3').animate({'opacity':1});
+                }
+                else{
+                    $('.triText3').animate({'opacity':0});
+                }
             });
         });
     </script>

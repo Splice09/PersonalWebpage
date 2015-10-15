@@ -88,7 +88,7 @@ body{
     transform: rotate(4deg);
 
 }
-.triText1.selected{
+.triText1 .selected{
     opacity:1;
     visibility:visible;
 }

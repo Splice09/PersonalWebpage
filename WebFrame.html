@@ -18,7 +18,8 @@
         <div class="triContainer">
             <div class="bodyTriangle1">
                 <div class ="triText1">
-                    About Me
+                    <div class ="unselected"> About Me </div>
+                    <div class ="selected"> About Me </div>
                 </div>
             </div>
             <div class="bodyTriangle2">
@@ -52,7 +53,7 @@
                 $('.currentWork').fadeOut('fast');
                 $('.pastProjects').fadeOut('fast');
                 $('.aboutMe').fadeToggle('slow');
-                $('.bodyTriangle1').addClass('selected')
+                $('.selected').fadeToggle('slow');
 
             });
             $(".bodyTriangle2").click(function(){

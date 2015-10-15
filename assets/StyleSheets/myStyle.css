@@ -72,8 +72,6 @@ body{
 .triText1{
     position:absolute;
     transition:1s;
-    visibility:hidden;
-    opacity:0;
     color: #D6D6D6;
     font-size:2rem;
     left:25%;
@@ -88,11 +86,14 @@ body{
     transform: rotate(4deg);
 
 }
-.triText1 .selected{
-    opacity:1;
-    visibility:visible;
+.triText1 .unselected{
+    visibility:hidden;
+    opacity:0;
 }
-.bodyTriangle1:hover .triText1{
+.triText1 .selected{
+    display:none;
+}
+.bodyTriangle1:hover .triText1 .unselected{
     visibility:visible;
     opacity:1;
 }

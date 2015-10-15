@@ -74,7 +74,7 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:1.2rem;
-    left:30%;
+    left:20%;
     top:.2%;
 
     -webkit-transform-origin:0 0;
@@ -116,8 +116,8 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:1.2rem;
-    left:19%;
-    top:1%;
+    left:13%;
+    top:1.5%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -158,8 +158,8 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:1.2rem;
-    left: 17%;
-    top:1.2%;
+    left: 12%;
+    top:4%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -200,8 +200,8 @@ body{
     opacity: 0;
     color: #D6D6D6;
     font-size:1.2rem;
-    left:15%;
-    top:2%;
+    left:13%;
+    top:4%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;

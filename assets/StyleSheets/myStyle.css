@@ -72,7 +72,7 @@ body{
 .triText1{
     position:absolute;
     transition:1s;
-    opacity: 0;
+    display:none;
     color: #D6D6D6;
     font-size:2rem;
     left:25%;
@@ -88,7 +88,7 @@ body{
 
 }
 .bodyTriangle1:hover .triText1{
-    opacity: 1;
+    display:block;
 }
 
 
@@ -248,7 +248,7 @@ body{
 .myImage{
     position:absolute;
     width:30%;
-    padding:5%;
-    top:30%;
+    padding:10%;
+    top:9%;
     right:0;
 }

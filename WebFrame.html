@@ -53,10 +53,13 @@
                 $('.pastProjects').fadeOut('fast');
                 $('.aboutMe').fadeToggle('slow');
                 if($('.aboutMe').is(':visible')){
-                    $('.triText1').animate({'opacity':1});
+                    $('.triText1').animate({opacity:1,
+                                           visibility:visible}, "slow");
+
                 }
                 else{
-                    $('.triText1').animate({'opacity':0});
+                    $('.triText1').animate({opacity:0,
+                                            visibility:hidden}, "slow");
                 }
 
             });

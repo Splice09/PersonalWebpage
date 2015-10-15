@@ -71,8 +71,9 @@ body{
 
 .triText1{
     position:absolute;
-    transition:1s;
-    display:none;
+    transition:visibility 0s, opacity 1s;
+    visibility:hidden;
+    opacity:0;
     color: #D6D6D6;
     font-size:2rem;
     left:25%;
@@ -88,7 +89,8 @@ body{
 
 }
 .bodyTriangle1:hover .triText1{
-    display:block;
+    visibility:visible;
+    opacity:1;
 }
 
 
@@ -113,7 +115,8 @@ body{
 
 .triText2{
     position:absolute;
-    transition:1s;
+    transition:visibility 0s, opacity 1s;
+    visibility:hidden;
     opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
@@ -130,6 +133,7 @@ body{
 
 }
 .bodyTriangle2:hover .triText2{
+    visibility:visible;
     opacity: 1;
 }
 
@@ -155,7 +159,8 @@ body{
 
 .triText3{
     position:absolute;
-    transition:1s;
+    transition:visibility 0s, opacity 1s;
+    visibility: hidden;
     opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
@@ -172,6 +177,7 @@ body{
 
 }
 .bodyTriangle3:hover .triText3{
+    visibility: visible;
     opacity: 1;
 }
 
@@ -197,7 +203,8 @@ body{
 
 .triText4{
     position:absolute;
-    transition:1s;
+    transition:visibility 0s, opacity 1s;
+    visibility:hidden;
     opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
@@ -215,6 +222,7 @@ body{
 
 }
 .bodyTriangle4:hover .triText4{
+    visibility:visible;
     opacity: 1;
 }
 

@@ -52,20 +52,26 @@
                 $(".currentWork").fadeOut("fast");
                 $(".pastProjects").fadeOut("fast");
                 $(".aboutMe").fadeToggle("slow");
-                $(".triText1").toggle();
+                $(".triText2").hide();
+                $(".triText3").hide();
+                $(".triText1").show();
 
             });
             $(".bodyTriangle2").click(function(){
                 $(".aboutMe").fadeOut("fast");
                 $(".pastProjects").fadeOut("fast");
                 $(".currentWork").fadeToggle("slow");
-                $(".triText2").toggle();
+                $(".triText1").hide();
+                $(".triText3").hide();
+                $(".triText2").show();
             });
             $(".bodyTriangle3").click(function(){
                 $(".aboutMe").fadeOut("fast");
                 $(".currentWork").fadeOut("fast");
                 $(".pastProjects").fadeToggle("slow");
-                $(".triText3").toggle();
+                $(".triText1").hide();
+                $(".triText2").hide();
+                $(".triText3").show();
             });
         });
     </script>

@@ -247,6 +247,8 @@ body{
 }
 .myImage{
     position:absolute;
-    height:45%;
     width:30%;
+    padding:5%;
+    top:30%;
+    right:0;
 }

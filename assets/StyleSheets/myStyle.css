@@ -189,16 +189,16 @@ body{
     color: #D6D6D6;
     font-size:2rem;
     font-size:2rem;
-    left:16%;
-    top:4%;
+    left:17%;
+    top:3%;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
 
-    -webkit-transform: rotate(4deg);
-    -ms-transform: rotate(4deg);
-    transform: rotate(4deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
 
 }
 

@@ -230,15 +230,18 @@ body{
     top:0;
 }
 .amContent{
-
     width:80%;
-    height:75%;
+    height:72%;
     margin:0 auto;
     padding:2%;
     border-style:solid;
     border-width:2px;
     border-color:rgb(129, 129, 197);
     overflow:hidden;
+}
+.summary{
+    font-family:"calluna";
+    font-size:1.5rem;
 }
 .myImage{
     float:right;

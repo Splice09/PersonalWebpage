@@ -242,8 +242,10 @@ body{
 }
 .myImage{
     float:right;
-    width:50%;
+    height:96%;
     padding:2%;
+    padding-right:1%;
+
 }
 .currentWork{
       position:absolute;

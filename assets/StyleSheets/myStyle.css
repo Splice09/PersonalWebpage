@@ -28,8 +28,8 @@
 body{
     margin:0;
 }
-a:link {
-    color: #FF0000
+.myLink {
+    color: black;
 }
 .pageHead{
     padding-top:0;

@@ -236,7 +236,6 @@ body{
     border:2px;
 }
 .myImage{
-    position:absolute;
     float:right;
     width:30%;
     padding:2%;

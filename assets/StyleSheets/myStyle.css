@@ -75,7 +75,7 @@ body{
 .triText1{
     position:absolute;
     font-family: "depot-new-web",sans-serif;
-    font-weight:500;
+
     transition:1s;
     color: #D6D6D6;
     font-size:2rem;
@@ -116,7 +116,7 @@ body{
 .triText2{
     position:absolute;
     font-family: "depot-new-web",sans-serif;
-    font-weight:500;
+
     transition:1s;
     color: #D6D6D6;
     font-size:2rem;
@@ -155,7 +155,7 @@ body{
 .triText3{
     position:absolute;
     font-family: "depot-new-web",sans-serif;
-    font-weight:500;
+
     transition:1s;
     color: #D6D6D6;
     font-size:2rem;
@@ -195,7 +195,7 @@ body{
 .triText4{
     position:absolute;
     font-family: "depot-new-web",sans-serif;
-    font-weight:500;
+
     transition:1s;
     color: #D6D6D6;
     font-size:2rem;
@@ -225,7 +225,7 @@ body{
 .contentHeader{
     width:100%;
     font-family: "depot-new-web",sans-serif;
-    font-weight:500;
+
     transition:1s;
     color: #D6D6D6;
     font-size:3rem;

@@ -17,7 +17,7 @@
         </div>
         <div class="triContainer">
             <div class="bodyTriangle1">
-                <div class ="triText1">about me</div>
+                <div class ="triText1">About Me</div>
             </div>
             <div class="bodyTriangle2">
                 <div class ="triText2">
@@ -35,11 +35,15 @@
                 </div>
             </div>
             <div class="aboutMe">
-                 <div class="amHeader">about me</div>
+                 <div class="contentHeader">About Me</div>
                  <img src="public/assets/Images/suit.jpg" class="myImage">
             </div>
-            <div class="currentWork"></div>
-            <div class="pastProjects"></div>
+            <div class="currentWork">
+                <div class="contentHeader">Current Work</div>
+            </div>
+            <div class="pastProjects">
+                <div class="contentHeader">Past Projects</div>
+            </div>
 
         </div>
     </div>
@@ -51,30 +55,20 @@
                 $('.currentWork').fadeOut('fast');
                 $('.pastProjects').fadeOut('fast');
                 $('.aboutMe').fadeToggle('slow');
-                $('.triText1').fadeToggle('slow');
+                $('.triText1').fadeToggle('fast');
 
             });
             $(".bodyTriangle2").click(function(){
                 $('.aboutMe').fadeOut('fast');
                 $('.pastProjects').fadeOut('fast');
                 $('.currentWork').fadeToggle('slow');
-                if($('.currentWork').is(':visible')){
-                    $('.triText2').animate({'opacity':1});
-                }
-                else{
-                    $('.triText2').animate({'opacity':0});
-                }
+                $('.triText2').fadeToggle('fast');
             });
             $('.bodyTriangle3').click(function(){
                 $('.aboutMe').fadeOut('fast');
                 $('.currentWork').fadeOut('fast');
                 $('.pastProjects').fadeToggle('slow');
-                if($('.pastProjects').is(':visible')){
-                    $('.triText3').animate({'opacity':1});
-                }
-                else{
-                    $('.triText3').animate({'opacity':0});
-                }
+                $('.triText3').fadeToggle('fast');
             });
         });
     </script>

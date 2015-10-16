@@ -111,8 +111,6 @@ body{
 .triText2{
     position:absolute;
     transition:1s;
-    visibility:hidden;
-    opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
     left:16%;
@@ -127,11 +125,6 @@ body{
     transform: rotate(4deg);
 
 }
-.bodyTriangle2:hover .triText2{
-    visibility:visible;
-    opacity: 1;
-}
-
 
 .bodyTriangle3{
     position:absolute;
@@ -155,8 +148,6 @@ body{
 .triText3{
     position:absolute;
     transition:1s;
-    visibility: hidden;
-    opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
     left: 16%;
@@ -170,10 +161,6 @@ body{
     -ms-transform: rotate(4deg);
     transform: rotate(4deg);
 
-}
-.bodyTriangle3:hover .triText3{
-    visibility: visible;
-    opacity: 1;
 }
 
 
@@ -199,8 +186,6 @@ body{
 .triText4{
     position:absolute;
     transition:1s;
-    visibility:hidden;
-    opacity: 0;
     color: #D6D6D6;
     font-size:2rem;
     font-size:2rem;
@@ -216,10 +201,6 @@ body{
     transform: rotate(4deg);
 
 }
-.bodyTriangle4:hover .triText4{
-    visibility:visible;
-    opacity: 1;
-}
 
 .aboutMe{
     position:absolute;
@@ -230,7 +211,7 @@ body{
     top:0;
     right:0;
 }
-.amHeader{
+.contentHeader{
     position:absolute;
     font-family: "depot-new-web",sans-serif;
     transition:1s;

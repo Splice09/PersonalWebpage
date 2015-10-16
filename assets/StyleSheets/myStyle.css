@@ -222,7 +222,7 @@ body{
 .contentHeader{
     position:absolute;
     font-family: "depot-new-web",sans-serif;
-    font-weight:600;
+    font-weight:500;
     transition:1s;
     color: #D6D6D6;
     font-size:3rem;

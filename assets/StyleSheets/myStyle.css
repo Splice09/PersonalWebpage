@@ -82,11 +82,11 @@ body{
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
-
+    /*
     -webkit-transform: rotate(4deg);
     -ms-transform: rotate(4deg);
     transform: rotate(4deg);
-
+    */
 }
 
 
@@ -123,11 +123,11 @@ body{
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
-
+    /*
     -webkit-transform: transform: rotate(4deg);
     -ms-transform: transform: rotate(4deg);
     transform: rotate(4deg);
-
+    */
 }
 
 .bodyTriangle3{
@@ -162,11 +162,11 @@ body{
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
-
+    /*
     -webkit-transform: rotate(4deg);
     -ms-transform: rotate(4deg);
     transform: rotate(4deg);
-
+    */
 }
 
 
@@ -203,11 +203,11 @@ body{
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0%;
-
+    /*
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
-
+    */
 }
 
 .aboutMe{

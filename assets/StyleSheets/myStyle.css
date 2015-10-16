@@ -248,14 +248,7 @@ a:link {
     font-family:"calluna";
     font-size:1.5rem;
 }
-.closer{
-    margin:0 auto;
-    padding:0;
-    font-family:"calluna";
-    font-size:1.5rem;
-    text-align:center;
-    color: #D6D6D6;
-}
+
 .myImage{
     float:right;
     width:50%;

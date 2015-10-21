@@ -98,7 +98,7 @@ my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);
 
 //Connect to DATABASE_URL (heroku postgreSQL database)
-var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432:/DATABASE_URL";
+var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
 pg.connect(connectionString, function(err, client) {
     if (err) throw err;
     console.log('Connected to postgres! Getting schemas...');

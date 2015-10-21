@@ -105,7 +105,7 @@ pg.connect(connectionString, function(err, client) {
 
     client
         //change code to match the schema and table name in my database
-        .query('SELECT projects.pastProjects FROM projects.pastProjects;')
+        .query('SELECT pastProjects FROM projects.pastProjects;')
         .on('row', function(row) {
             console.log(JSON.stringify(row));
         });

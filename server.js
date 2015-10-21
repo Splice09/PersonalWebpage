@@ -6,7 +6,9 @@ fileSys = require("fs"),
 app = connect(),
 port = process.env.PORT || 5000,
 stats,
-htmlPath = "WebFrame.html";
+htmlPath = "WebFrame.html",
+pg = require('pg');
+
 
 //This function uses the connect middleware to fetch the requested .css files or .js files
 app.use('/public/', function(request, response){
@@ -94,3 +96,15 @@ app.use('/', function(request, response){
 });
 my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);
+
+//Connect to DATABASE_URL (heroku postgreSQL database)
+pg.connect(process.env.DATABASE_URL, function(err, client) {
+    if (err) throw err;
+    console.log('Connected to postgres! Getting schemas...');
+
+    client
+        .query('SELECT table_schema,table_name FROM information_schema.tables;')
+        .on('row', function(row) {
+            console.log(JSON.stringify(row));
+        });
+});

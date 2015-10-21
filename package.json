@@ -4,7 +4,8 @@
   "description": "Professional website of Patrick Fleming.",
   "main": "server.js",
   "dependencies": {
-    "connect": "3.3.4"
+    "connect": "3.3.4",
+    "pg": "4.4.3"
   },
   "devDependencies": {},
   "scripts": {

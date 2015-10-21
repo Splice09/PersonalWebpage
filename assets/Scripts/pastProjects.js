@@ -1,5 +1,6 @@
 //Connect to DATABASE_URL (heroku postgreSQL database)
-pg.connect(process.env.DATABASE_URL, function(err, client) {
+var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432:/DATABASE_URL"
+pg.connect(connectionString, function(err, client) {
     if (err) throw err;
     console.log('Connected to postgres! Getting schemas...');
 

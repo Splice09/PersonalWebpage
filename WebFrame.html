@@ -54,25 +54,7 @@
             <div class="pastProjects">
                 <div class="contentHeader">Past Projects</div>
                 <div class="ppContent">
-                    <script>
-                        var myTable = "<table><tr><td>Project Name</td>";
-                        myTable+= "<td>Project Description</td></tr>";
 
-                        if(projNames.length == 0){
-                            //console.log("SOMETHING IS UP WITH OUR DATABASE READ IN");
-                        }
-                        else if(projNames.length == projDesc.length){
-                            //console.log("=========== project names info =======" + projNames[0]);
-                            for(var i = 0; i < projNames.length; i++){
-                                myTable+= "<tr><td>" + projNames[i] + "</td><td>" + projDesc[i] + "</td></tr>";
-                            }
-                        }
-                        else{
-                            //console.log("table arrays aren't the same length.")
-                        }
-                        myTabe+= "</table>";
-                        document.getElementsByClassName(ppContent).innerHTML(myTable);
-                    </script>
                 </div>
             </div>
 
@@ -108,6 +90,27 @@
                 $('.triText3').fadeToggle('fast');
             });
         });
+    </script>
+    <script>
+        var myTable = "<table><tr><td>Project Name</td>";
+        myTable+= "<td>Project Description</td></tr>";
+        /*
+        if(projNames.length == 0){
+            //console.log("SOMETHING IS UP WITH OUR DATABASE READ IN");
+        }
+        */
+        //projNames.length == projDesc.length
+        if(true){
+            //console.log("=========== project names info =======" + projNames[0]);
+            for(var i = 0; i < 1; i++){
+                myTable+= "<tr><td>" + patrick + "</td><td>" + fleming + "</td></tr>";
+            }
+        }
+        else{
+            //console.log("table arrays aren't the same length.")
+        }
+        myTabe+= "</table>";
+        document.getElementsByClassName(ppContent).innerHTML(myTable);
     </script>
 </body>
 

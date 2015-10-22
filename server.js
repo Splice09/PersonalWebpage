@@ -106,7 +106,7 @@ pg.connect(connectionString, function(err, client) {
     console.log('Connected to postgres! Getting schemas...');
 
     var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
-    var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;')
+    var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
         nameQuery.on('row', function(row) {
             projNames.push(row);
         });

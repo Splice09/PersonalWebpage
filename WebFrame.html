@@ -53,6 +53,23 @@
             </div>
             <div class="pastProjects">
                 <div class="contentHeader">Past Projects</div>
+                <div class="ppContent">
+                    <script>
+                        var myTable = "<table><tr><td>Project Name</td>";
+                        myTable+= "<td>Project Description</td></tr>";
+
+                        if(projNames.length == projDesc.length){
+                            for(var i = 0; i < projNames.length; i++){
+                                 myTable+= "<tr><td>" + projectNames[i] + "</td><td>" + projectDesc[i] + "</td></tr>";
+                            }
+                        }
+                        else{
+                            console.log("table arrays aren't the same length.")
+                        }
+                        myTabe+= "</table>";
+                        document.write(myTable);
+                    </script>
+                </div>
             </div>
 
         </div>

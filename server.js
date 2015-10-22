@@ -114,3 +114,5 @@ pg.connect(connectionString, function(err, client) {
             projDesc.push(row);
         });
 });
+console.log('=============this is your project name: ' + projectNames[0]);
+console.log('=============this is your project description: ' + projectDesc[0]);

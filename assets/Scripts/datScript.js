@@ -20,7 +20,7 @@ if(projNames.length == 0){
 else if(projNames.length == projDesc.length){
     console.log("=========== project names info =======" + projectNames[0]);
     for(var i = 0; i < projNames.length; i++){
-    myTable+= "<tr><td>" + projectNames[i] + "</td><td>" + projectDesc[i] + "</td></tr>";
+    myTable+= "<tr><td>" + projNames[i] + "</td><td>" + projDesc[i] + "</td></tr>";
     }
 }
 else{

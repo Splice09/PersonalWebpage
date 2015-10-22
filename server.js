@@ -101,7 +101,7 @@ console.log('Connected via port ' + port);
 var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
 var projNames = [];
 var projDesc = [];
-router.getpg.connect(connectionString, function(err, client) {
+pg.connect(connectionString, function(err, client) {
     if (err) throw err;
     console.log('Connected to postgres! Getting schemas...');
 
@@ -110,12 +110,7 @@ router.getpg.connect(connectionString, function(err, client) {
         nameQuery.on('row', function(row) {
             projNames.push(row);
         });
-        /*
-        nameQuery.on('end', function(){
-            done();
-            return res.json(projNames);
-        });
-        */
+
         descQuery.on('row', function(row) {
             projDesc.push(row);
         });

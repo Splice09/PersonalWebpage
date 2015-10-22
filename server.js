@@ -108,11 +108,11 @@ pg.connect(connectionString, function(err, client) {
     var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
     var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
         nameQuery.on('row', function(row) {
-            projNames.push(row);
+            projNames.push(JSON.stringify(row));
         });
 
         descQuery.on('row', function(row) {
-            projDesc.push(row);
+            projDesc.push(JSON.stringify(row));
         });
 
     console.log('=============this is your project name: ' + projNames[0]);

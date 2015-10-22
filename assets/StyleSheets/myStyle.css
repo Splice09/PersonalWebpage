@@ -287,3 +287,13 @@ body{
     border-color:rgb(115, 115, 190);
     overflow:auto;
 }
+.cwContent{
+    width:80%;
+    height:72%;
+    margin:0 auto;
+    padding:2%;
+    border-style:solid;
+    border-width:2px;
+    border-color:#d6d6d6;
+    overflow:auto;
+}

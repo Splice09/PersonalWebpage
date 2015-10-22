@@ -110,8 +110,7 @@ pg.connect(connectionString, function(err, client) {
         nameQuery.on('row', function(row) {
             projNames.push(row);
         });
-        descQuery.query('SELECT projdesc FROM projects.pastProjects;')
-        .on('row', function(row) {
+        descQuery.on('row', function(row) {
             projDesc.push(row);
         });
 });

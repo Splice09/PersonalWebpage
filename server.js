@@ -148,6 +148,7 @@ console.log('Connected via port ' + port);
 
 
 function buildTable(pNames, pDesc){
+    console.log("You are in the buildTable function..." + pNames[i]);
     var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
     myTable+= "<th>Project Description</th></tr>";
 

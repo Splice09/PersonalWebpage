@@ -10,7 +10,7 @@ stats,
 htmlPath = "WebFrame.html",
 pg = require('pg');
 
-
+app.use(bodyParser.json());
 //This function uses the connect middleware to fetch the requested .css files or .js files
 app.use('/public/', function(request, response){
     console.log("you are in the first app.use() function");
@@ -23,7 +23,7 @@ app.use('/public/', function(request, response){
 
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
-        var myBody = app.use(bodyParser.json(request.body));
+        var myBody = request.body;
         console.log("*****************************" + myBody);
         try{
             var myTable = "";

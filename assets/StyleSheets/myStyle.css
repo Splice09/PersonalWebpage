@@ -29,7 +29,8 @@ body{
     margin:0;
 }
 .myLink {
-    color: black;
+    color: #00006c;
+    text-decoration: none;
 }
 .pageHead{
     padding-top:0;

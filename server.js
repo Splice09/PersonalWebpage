@@ -13,6 +13,7 @@ pg = require('pg');
 //This function uses the connect middleware to fetch the requested .css files or .js files
 app.use('/public/', function(request, response){
     console.log("you are in the first app.use() function");
+    console.log("=======================your REQ is: " + request.method);
     var my_path = url.parse(request.url).pathname;
     console.log(path.join(url.parse(request.url).pathname, "This is the requested path"));
     console.log("The full path is ---")
@@ -65,6 +66,7 @@ app.use('/public/', function(request, response){
 //This use function uses the connect middleware to fetch the requested WebFrame.html file
 app.use('/', function(request, response){
     console.log("you are in the second app.use() function");
+    console.log("=======================your REQ is: " + request.method);
     var fullPath = path.join(process.cwd(), htmlPath);
     console.log("The full path is:");
     console.log(fullPath);
@@ -105,8 +107,6 @@ console.log('Connected via port ' + port);
 var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
 var projNames = [];
 var projDesc = [];
-var stringNames;
-var stringDesc;
 pg.connect(connectionString, function(err, client) {
     if (err) throw err;
     console.log('Connected to postgres! Getting schemas...');
@@ -120,10 +120,8 @@ pg.connect(connectionString, function(err, client) {
         projNames.push(JSON.stringify(row));
         console.log('=============this is your project name: ' + projNames[0]);
     });
-    stringNames = JSON.stringify(projNames);
     descQuery.on('row', function(row) {
         projDesc.push(JSON.stringify(row));
         console.log('=============this is your project description: ' + projDesc[0]);
     });
-    stringDesc = JSON.stringify(projDesc);
 });

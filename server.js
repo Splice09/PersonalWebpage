@@ -66,13 +66,14 @@ app.use('/public/', function(request, response){
                              //console.log("table arrays aren't the same length.")
                          }
                          myTable+= "</table>";
-                         console.log(myTable);
+                         //console.log(myTable);
+                         response.writeHeader(200, {'Content-type': 'application/json' });
+                         //stuff
+                         response.end(JSON.stringify(myTable));
                      });
                  });
              });
-            response.writeHeader(200, {'Content-type': 'application/json' });
-            //stuff
-            response.end(JSON.stringify(myTable));
+
          }
          catch (e){
             console.log("SOMETHING IS UP WITH YOUR POST DUDE.");

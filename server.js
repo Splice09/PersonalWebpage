@@ -52,6 +52,7 @@ app.use('/public/', function(request, response){
                          console.log('=============this is your project name: ' + projNames[0]);
                          console.log('=============this is your project description: ' + projDesc[0]);
                          myTable = buildTable(projNames, projDesc);
+                         console.log(myTable);
                      });
                  });
              });

@@ -66,7 +66,6 @@ app.use('/public/', function(request, response){
                              //console.log("table arrays aren't the same length.")
                          }
                          myTable+= "</table>";
-                         return myTable;
                          console.log(myTable);
                      });
                  });

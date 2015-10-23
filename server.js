@@ -3,6 +3,7 @@ my_http = require("http"),
 path = require("path"),
 url = require("url"),
 fileSys = require("fs"),
+var bodyParser = require('body-parser'),
 app = connect(),
 port = process.env.PORT || 5000,
 stats,
@@ -22,8 +23,8 @@ app.use('/public/', function(request, response){
 
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
-
-        console.log("*****************************" + request.body);
+        var myBody = app.use(bodyParser.json(request.body));
+        console.log("*****************************" + myBody);
         try{
             var myTable = "";
             console.log("WOOOOOOOOOOOOOOO WE POSTED!");

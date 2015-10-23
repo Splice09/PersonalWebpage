@@ -23,7 +23,7 @@ app.use('/public/', function(request, response){
          console.log("WOOOOOOOOOOOOOOO WE POSTED!");
         var myString = "nice it works!";
         response.writeHeader(200);
-        response.write(myString, "text/plain");
+        response.json(myString);
         response.end();
     }
     else{

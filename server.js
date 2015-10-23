@@ -32,7 +32,23 @@ app.use('/public/', function(request, response){
                  if (err) throw err;
                  console.log('Connected to postgres! Getting schemas...');
 
-                 myTable = makeQuery();
+                 var projNames = [];
+                 var projDesc = [];
+
+                 //perform queries
+                 var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
+                 var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
+
+                 //store query results in array variables
+                 nameQuery.on('row', function(row) {
+                     projNames.push(JSON.stringify(row));
+                     console.log('=============this is your project name: ' + projNames[0]);
+                 });
+                 descQuery.on('row', function(row) {
+                     projDesc.push(JSON.stringify(row));
+                     console.log('=============this is your project description: ' + projDesc[0]);
+                 });
+                 myTable = buildTable(projNames, projDesc);
              });
             response.writeHeader(200, {'Content-type': 'application/json' });
             //stuff
@@ -124,25 +140,6 @@ app.use('/', function(request, response){
 my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);
 
-function makeQuery(){
-    var projNames = [];
-    var projDesc = [];
-
-    //perform queries
-    var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
-    var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
-
-    //store query results in array variables
-    nameQuery.on('row', function(row) {
-        projNames.push(JSON.stringify(row));
-        console.log('=============this is your project name: ' + projNames[0]);
-    });
-    descQuery.on('row', function(row) {
-        projDesc.push(JSON.stringify(row));
-        console.log('=============this is your project description: ' + projDesc[0]);
-    });
-    return buildTable(projNames, projDesc);
-}
 
 function buildTable(pNames, pDesc){
     var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";

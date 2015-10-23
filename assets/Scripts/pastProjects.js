@@ -1,13 +1,20 @@
-//Connect to DATABASE_URL (heroku postgreSQL database)
-var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432:/DATABASE_URL"
-pg.connect(connectionString, function(err, client) {
-    if (err) throw err;
-    console.log('Connected to postgres! Getting schemas...');
-
-    client
-        //change code to match the schema and table name in my database
-        .query('SELECT projects.pastProjects FROM projects.pastProjects;')
-        .on('row', function(row) {
-            console.log(JSON.stringify(row));
-        });
-});
+var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
+myTable+= "<th>Project Description</th></tr>";
+/*
+ if(projNames.length == 0){
+ //console.log("SOMETHING IS UP WITH OUR DATABASE READ IN");
+ }
+ */
+//projNames.length == projDesc.length
+if(true){
+    //console.log("=========== project names info =======" + projNames[0]);
+    for(var i = 0; i < 1; i++){
+        myTable+= "<tr><td> patrick </td><td> fleming </td></tr>";
+    }
+}
+else{
+    //console.log("table arrays aren't the same length.")
+}
+myTable+= "</table>";
+//Look into surrounding ppContent with single quotes
+$('.ppContent').html(myTable);

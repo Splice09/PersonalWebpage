@@ -78,7 +78,8 @@
             //console.log("table arrays aren't the same length.")
         }
         myTable+= "</table>";
-        $( document ).getElementsByClassName(ppContent).innerHTML(myTable);
+        //Look into surrounding ppContent with single quotes
+        $('.ppContent').html(myTable);
     </script>
 </body>
 

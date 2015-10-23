@@ -6,7 +6,8 @@ fileSys = require("fs"),
 app = connect(),
 port = process.env.PORT || 5000,
 stats,
-htmlPath = "WebFrame.html";
+htmlPath = "WebFrame.html",
+pg = require('pg');
 
 
 //This function uses the connect middleware to fetch the requested .css files or .js files
@@ -43,7 +44,6 @@ app.use('/public/', function(request, response){
                         response.end();
                     }
                     else if(fullPath =="/app/assets/StyleSheets/landscapeMobile.css"){
-                        console.log("if we got this far, Kayla is awesome!");
                         response.writeHeader(200, {"Content-Type": "text/css"});
                         response.write(file, "binary");
                         response.end();
@@ -58,9 +58,10 @@ app.use('/public/', function(request, response){
         }
     }
     catch (e){
-        console.log("yo shit is broke mang forreal");
+        console.log("yo shit is broke!");
     }
 });
+
 //This use function uses the connect middleware to fetch the requested WebFrame.html file
 app.use('/', function(request, response){
     console.log("you are in the second app.use() function");
@@ -96,4 +97,30 @@ app.use('/', function(request, response){
 my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);
 
+//=============================================================================================================
+/*
+ Connects to DATABASE_URL (heroku postgreSQL database)
+ - then queries the database for past project information
+ */
+var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
+var projNames = [];
+var projDesc = [];
+pg.connect(connectionString, function(err, client) {
+    if (err) throw err;
+    console.log('Connected to postgres! Getting schemas...');
 
+    //perform queries
+    var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
+    var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
+
+    //store query results in array variables
+    nameQuery.on('row', function(row) {
+        projNames.push(JSON.stringify(row));
+        console.log('=============this is your project name: ' + projNames[0]);
+    });
+    descQuery.on('row', function(row) {
+        projDesc.push(JSON.stringify(row));
+        console.log('=============this is your project description: ' + projDesc[0]);
+    });
+
+});

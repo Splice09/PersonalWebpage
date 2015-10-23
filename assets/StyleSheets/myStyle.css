@@ -305,10 +305,14 @@ body{
 }
 table, th, td{
     border: 1px solid black;
+    font-family: "calluna";
 }
 th {
+    padding:1%;
     vertical-align: bottom;
+    font-size:2rem;
 }
 td {
     vertical-align: center;
+    font-size:1.5rem;
 }

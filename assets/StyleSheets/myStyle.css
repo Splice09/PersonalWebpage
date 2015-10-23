@@ -299,9 +299,8 @@ body{
 }
 .projectsTable{
     width:100%;
-    padding:2%;
     margin:0 auto;
-
+    border-collapse:collapse;
 }
 table, th, td{
     border: 1px solid black;

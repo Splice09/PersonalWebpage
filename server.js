@@ -20,11 +20,16 @@ app.use('/public/', function(request, response){
     var fullPath = path.join(process.cwd(), my_path);
     console.log(fullPath);
     if(request.method == 'POST'){
-         console.log("WOOOOOOOOOOOOOOO WE POSTED!");
-        var myString = "nice it works!";
-        response.writeHeader(200);
-        response.json(myString);
-        response.end();
+         try{
+            console.log("WOOOOOOOOOOOOOOO WE POSTED!");
+            var myString = "nice it works!";
+            response.writeHeader(200);
+            response.json(myString);
+            response.end();
+         }
+         catch (e){
+            console.log("SOMETHING IS UP WITH YOUR POST DUDE.");
+         }
     }
     else{
         try{

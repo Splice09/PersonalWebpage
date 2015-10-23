@@ -1,11 +1,12 @@
 /*
 Draws a table based on query results and inserts the html into WebFrame.html
  */
+var nameData = jQuery.parseJSON(projNames);
 var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
 myTable+= "<th>Project Description</th></tr>";
 //projNames.length == projDesc.length
 if(true){
-    console.log("=========== project names info =======" + jQuery.parseJSON(projNames[0]));
+    console.log("=========== project names info =======" + nameData[0]);
     for(var i = 0; i < 1; i++){
         myTable+= "<tr><td> patrick </td><td> fleming </td></tr>";
     }

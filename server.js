@@ -19,47 +19,56 @@ app.use('/public/', function(request, response){
     console.log("The full path is ---")
     var fullPath = path.join(process.cwd(), my_path);
     console.log(fullPath);
-    try{
-        stats = fileSys.lstatSync(fullPath);
-        if(stats.isDirectory()){
-            response.writeHeader(404, {"Content-Type": "text/plain"});
-            response.write("404 Not Found\n");
-            response.end();
-        }
-        else{
-            fileSys.readFile(fullPath, "binary", function(err, file){
-                if(err){
-                    response.writeHeader(500, {"Content-Type": "text/plain"});
-                    response.write(err + "\n");
-                    response.end();
-                }
-                else{
-                    if(fullPath == "/app/assets/StyleSheets/myStyle.css"){
-                        response.writeHeader(200, {"Content-Type": "text/css"});
-                        response.write(file, "binary");
-                        response.end();
-                    }
-                    else if(fullPath =="/app/assets/StyleSheets/myStyleSmall.css"){
-                        response.writeHeader(200, {"Content-Type": "text/css"});
-                        response.write(file, "binary");
-                        response.end();
-                    }
-                    else if(fullPath =="/app/assets/StyleSheets/landscapeMobile.css"){
-                        response.writeHeader(200, {"Content-Type": "text/css"});
-                        response.write(file, "binary");
+    if(request.method == 'POST'){
+         console.log("WOOOOOOOOOOOOOOO WE POSTED!");
+        var myString = "nice it works!";
+        response.writeHeader(200);
+        response.write(myString, "text/plain");
+        response.end();
+    }
+    else{
+        try{
+            stats = fileSys.lstatSync(fullPath);
+            if(stats.isDirectory()){
+                response.writeHeader(404, {"Content-Type": "text/plain"});
+                response.write("404 Not Found\n");
+                response.end();
+            }
+            else{
+                fileSys.readFile(fullPath, "binary", function(err, file){
+                    if(err){
+                        response.writeHeader(500, {"Content-Type": "text/plain"});
+                        response.write(err + "\n");
                         response.end();
                     }
                     else{
-                        response.writeHeader(200);
-                        response.write(file, "binary");
-                        response.end();
+                        if(fullPath == "/app/assets/StyleSheets/myStyle.css"){
+                            response.writeHeader(200, {"Content-Type": "text/css"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath =="/app/assets/StyleSheets/myStyleSmall.css"){
+                            response.writeHeader(200, {"Content-Type": "text/css"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else if(fullPath =="/app/assets/StyleSheets/landscapeMobile.css"){
+                            response.writeHeader(200, {"Content-Type": "text/css"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
+                        else{
+                            response.writeHeader(200);
+                            response.write(file, "binary");
+                            response.end();
+                        }
                     }
-                }
-            });
+                });
+            }
         }
-    }
-    catch (e){
-        console.log("yo shit is broke!");
+        catch (e){
+            console.log("yo shit is broke!");
+        }
     }
 });
 

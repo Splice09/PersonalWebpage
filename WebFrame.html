@@ -45,7 +45,6 @@
                      moves me closer to my dreams. Examples include: writing at least one line of code, practicing music theory,
                      reading a book, even exercising. As long as a minimum of one thing gets accomplished, it's a non-zero day.
                      If you're interested in speaking; contact me. Let's get something done today!</p>
-
                  </div>
             </div>
             <div class="currentWork">
@@ -56,40 +55,10 @@
                 <div class="contentHeader">Past Projects</div>
                 <div class="ppContent"></div>
             </div>
-
         </div>
     </div>
     <script src="public/assets/Scripts/jquery-1.11.3.js"></script>
-    <script>
-        //function to show and hide divs on triangle click
-        $( document ).ready(function() {
-            $('.bodyTriangle1').click(function(){
-                $('.currentWork').fadeOut('fast');
-                $('.pastProjects').fadeOut('fast');
-                $('.aboutMe').fadeToggle('slow');
-                $('.triText2').fadeIn('slow');
-                $('.triText3').fadeIn('slow');
-                $('.triText1').fadeToggle('fast');
-
-            });
-            $(".bodyTriangle2").click(function(){
-                $('.aboutMe').fadeOut('fast');
-                $('.pastProjects').fadeOut('fast');
-                $('.currentWork').fadeToggle('slow');
-                $('.triText1').fadeIn('slow');
-                $('.triText3').fadeIn('slow');
-                $('.triText2').fadeToggle('fast');
-            });
-            $('.bodyTriangle3').click(function(){
-                $('.aboutMe').fadeOut('fast');
-                $('.currentWork').fadeOut('fast');
-                $('.pastProjects').fadeToggle('slow');
-                $('.triText1').fadeIn('slow');
-                $('.triText2').fadeIn('slow');
-                $('.triText3').fadeToggle('fast');
-            });
-        });
-    </script>
+    <script src="public/assets/Scripts/showTriangles.js"></script>
     <script>
         var myTable = "<table><tr><td>Project Name</td>";
         myTable+= "<td>Project Description</td></tr>";

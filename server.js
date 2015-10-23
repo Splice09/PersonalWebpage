@@ -19,13 +19,24 @@ app.use('/public/', function(request, response){
     console.log("The full path is ---")
     var fullPath = path.join(process.cwd(), my_path);
     console.log(fullPath);
+
+    //check for request method for either a GET or a POST
     if(request.method == 'POST'){
          try{
+            var myTable = "";
             console.log("WOOOOOOOOOOOOOOO WE POSTED!");
-            var myString = "nice it works!";
+             //Connects to DATABASE_URL (heroku postgreSQL database)
+             var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
+
+             pg.connect(connectionString, function(err, client) {
+                 if (err) throw err;
+                 console.log('Connected to postgres! Getting schemas...');
+
+                 myTable = makeQuery();
+             });
             response.writeHeader(200, {'Content-type': 'application/json' });
             //stuff
-            response.end(JSON.stringify(myString));
+            response.end(JSON.stringify(myTable));
          }
          catch (e){
             console.log("SOMETHING IS UP WITH YOUR POST DUDE.");
@@ -113,17 +124,9 @@ app.use('/', function(request, response){
 my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);
 
-//=============================================================================================================
-/*
- Connects to DATABASE_URL (heroku postgreSQL database)
- - then queries the database for past project information
- */
-var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
-var projNames = [];
-var projDesc = [];
-pg.connect(connectionString, function(err, client) {
-    if (err) throw err;
-    console.log('Connected to postgres! Getting schemas...');
+function makeQuery(){
+    var projNames = [];
+    var projDesc = [];
 
     //perform queries
     var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
@@ -138,4 +141,24 @@ pg.connect(connectionString, function(err, client) {
         projDesc.push(JSON.stringify(row));
         console.log('=============this is your project description: ' + projDesc[0]);
     });
-});
+    return buildTable(projNames, projDesc);
+}
+
+function buildTable(pNames, pDesc){
+    var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
+    myTable+= "<th>Project Description</th></tr>";
+
+    if(pNames.length == pDesc.length){
+        for(var i = 0; i < 1; i++){
+            myTable+= "<tr><td>pNames[i]</td><td>pDesc[i]</td></tr>";
+        }
+    }
+    else if(projNames.length == 0){
+        console.log("SOMETHING IS UP WITH OUR DATABASE READ IN");
+    }
+    else{
+        //console.log("table arrays aren't the same length.")
+    }
+    myTable+= "</table>";
+    return myTable;
+}

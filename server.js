@@ -54,9 +54,9 @@ app.use('/public/', function(request, response){
                          var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
                          myTable+= "<th>Project Description</th></tr>";
 
-                         if(pNames.length == pDesc.length){
+                         if(projNames.length == projDesc.length){
                              for(var i = 0; i < 1; i++){
-                                 myTable+= "<tr><td>pNames[i]</td><td>pDesc[i]</td></tr>";
+                                 myTable+= "<tr><td>projNames[i]</td><td>projDesc[i]</td></tr>";
                              }
                          }
                          else if(projNames.length == 0){

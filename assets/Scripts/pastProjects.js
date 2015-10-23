@@ -1,5 +1,5 @@
 function getData(pageName){
-    var posting = $.post("public/server.js", {
+    var posting = $.post("server.js", {
         page_name: pageName
     });
 

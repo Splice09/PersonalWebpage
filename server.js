@@ -56,7 +56,7 @@ app.use('/public/', function(request, response){
 
                          if(projNames.length == projDesc.length){
                              for(var i = 0; i < 1; i++){
-                                 myTable+= "<tr><td>projNames[i]</td><td>projDesc[i]</td></tr>";
+                                 myTable+= "<tr><td>" + projNames[i]+ "</td><td>" + projDesc[i] + "</td></tr>";
                              }
                          }
                          else if(projNames.length == 0){

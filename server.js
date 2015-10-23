@@ -51,11 +51,9 @@ app.use('/public/', function(request, response){
                      descQuery.on('end', function(result){
                          console.log('=============this is your project name: ' + projNames[0]);
                          console.log('=============this is your project description: ' + projDesc[0]);
+                         myTable = buildTable(projNames, projDesc);
                      });
                  });
-
-
-                 myTable = buildTable(projNames, projDesc);
              });
             response.writeHeader(200, {'Content-type': 'application/json' });
             //stuff

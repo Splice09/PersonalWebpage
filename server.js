@@ -3,18 +3,16 @@ my_http = require("http"),
 path = require("path"),
 url = require("url"),
 fileSys = require("fs"),
-bodyParser = require('body-parser'),
 app = connect(),
 port = process.env.PORT || 5000,
 stats,
 htmlPath = "WebFrame.html",
 pg = require('pg');
 
-app.use(bodyParser.json());
 //This function uses the connect middleware to fetch the requested .css files or .js files
 app.use('/public/', function(request, response){
     console.log("you are in the first app.use() function");
-    console.log("=======================your REQ is: " + request.method);
+   // console.log("=======================your REQ is: " + request.method);
     var my_path = url.parse(request.url).pathname;
     console.log(path.join(url.parse(request.url).pathname, "This is the requested path"));
     console.log("The full path is ---")

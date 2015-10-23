@@ -1,7 +1,7 @@
 /*
 Draws a table based on query results and inserts the html into WebFrame.html
  */
-var nameData = jQuery.parseJSON(stringNames);
+//var nameData = jQuery.parseJSON(stringNames);
 var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
 myTable+= "<th>Project Description</th></tr>";
 //projNames.length == projDesc.length

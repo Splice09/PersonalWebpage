@@ -1,3 +1,4 @@
+var pg = require('pg');
 /*
 Connects to DATABASE_URL (heroku postgreSQL database)
  - then queries the database for past project information

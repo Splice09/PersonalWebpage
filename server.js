@@ -6,8 +6,7 @@ fileSys = require("fs"),
 app = connect(),
 port = process.env.PORT || 5000,
 stats,
-htmlPath = "WebFrame.html",
-pg = require('pg');
+htmlPath = "WebFrame.html";
 
 
 //This function uses the connect middleware to fetch the requested .css files or .js files

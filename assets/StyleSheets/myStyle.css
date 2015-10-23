@@ -306,6 +306,7 @@ body{
 table, th, td{
     border: 1px solid black;
     font-family: "calluna";
+    padding:1%;
 }
 th {
     padding:1%;

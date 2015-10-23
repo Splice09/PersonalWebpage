@@ -51,7 +51,22 @@ app.use('/public/', function(request, response){
                      descQuery.on('end', function(result){
                          console.log('=============this is your project name: ' + projNames[0]);
                          console.log('=============this is your project description: ' + projDesc[0]);
-                         myTable = buildTable(projNames, projDesc);
+                         var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
+                         myTable+= "<th>Project Description</th></tr>";
+
+                         if(pNames.length == pDesc.length){
+                             for(var i = 0; i < 1; i++){
+                                 myTable+= "<tr><td>pNames[i]</td><td>pDesc[i]</td></tr>";
+                             }
+                         }
+                         else if(projNames.length == 0){
+                             console.log("SOMETHING IS UP WITH OUR DATABASE READ IN");
+                         }
+                         else{
+                             //console.log("table arrays aren't the same length.")
+                         }
+                         myTable+= "</table>";
+                         return myTable;
                          console.log(myTable);
                      });
                  });
@@ -148,7 +163,6 @@ console.log('Connected via port ' + port);
 
 
 function buildTable(pNames, pDesc){
-    console.log("You are in the buildTable function..." + pNames[i]);
     var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
     myTable+= "<th>Project Description</th></tr>";
 

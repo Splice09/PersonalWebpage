@@ -42,13 +42,19 @@ app.use('/public/', function(request, response){
                      projNames.push(JSON.stringify(row));
 
                  });
-                 var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
-                 descQuery.on('row', function(row) {
-                     projDesc.push(JSON.stringify(row));
+                 nameQuery.on('end',function(result){
+                     var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
+                     descQuery.on('row', function(row) {
+                         projDesc.push(JSON.stringify(row));
 
+                     });
+                     descQuery.on('end', function(result){
+                         console.log('=============this is your project name: ' + projNames[0]);
+                         console.log('=============this is your project description: ' + projDesc[0]);
+                     });
                  });
-                 console.log('=============this is your project name: ' + projNames[0]);
-                 console.log('=============this is your project description: ' + projDesc[0]);
+
+
                  myTable = buildTable(projNames, projDesc);
              });
             response.writeHeader(200, {'Content-type': 'application/json' });

@@ -310,9 +310,9 @@ table, th, td{
 th {
     padding:1%;
     vertical-align: bottom;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 td {
     vertical-align: center;
-    font-size:1.5rem;
+    font-size:1rem;
 }

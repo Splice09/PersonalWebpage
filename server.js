@@ -118,7 +118,6 @@ pg.connect(connectionString, function(err, client) {
     //store query results in array variables
     nameQuery.on('row', function(row) {
         projNames.push(JSON.stringify(row));
-
         console.log('=============this is your project name: ' + projNames[0]);
     });
     stringNames = JSON.stringify(projNames);

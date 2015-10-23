@@ -24,8 +24,8 @@ app.use('/public/', function(request, response){
             console.log("WOOOOOOOOOOOOOOO WE POSTED!");
             var myString = "nice it works!";
             response.writeHeader(200, {'Content-type': 'application/json' });
-            response.redirect(myString);
-            response.end();
+            //stuff
+            response.end(JSON.stringify(myString));
          }
          catch (e){
             console.log("SOMETHING IS UP WITH YOUR POST DUDE.");

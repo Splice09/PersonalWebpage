@@ -4,7 +4,7 @@ function getData(pageName){
     });
 
     posting.done(function(data){
-        alert.(data);
+        alert(data);
     });
     posting.fail(function(){
         alert("failed");

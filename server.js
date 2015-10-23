@@ -23,8 +23,8 @@ app.use('/public/', function(request, response){
          try{
             console.log("WOOOOOOOOOOOOOOO WE POSTED!");
             var myString = "nice it works!";
-            response.writeHeader(200);
-            response.json(myString);
+            response.writeHeader(200, {'Content-type': 'application/json' });
+            myString
             response.end();
          }
          catch (e){

@@ -11,7 +11,7 @@ htmlPath = "WebFrame.html",
 pg = require('pg');
 app.use(bodyParser.urlencoded({extended: false}));
 
-//This function uses the connect middleware to fetch the requested .css files or .js files
+//This function uses the connect middleware to handle GET and POST HTTP requests
 app.use('/public/', function(request, response){
     console.log("you are in the first app.use() function");
    // console.log("=======================your REQ is: " + request.method);

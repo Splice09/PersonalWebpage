@@ -76,7 +76,6 @@ app.use('/public/', function(request, response){
                              myTable+= "</table>";
                              //console.log(myTable);
                              response.writeHeader(200, {'Content-type': 'application/json' });
-                             //stuff
                              response.end(JSON.stringify(myTable));
                          });
                      });
@@ -89,7 +88,8 @@ app.use('/public/', function(request, response){
         }
         else{
             try{
-
+                response.writeHeader(200, {'Content-type': 'application/json' });
+                response.end(JSON.stringify("currentWork is working!"));
             }
             catch (e){
                 console.log("SOMETHING IS UP WITH YOUR currentWork POST DUDE.");

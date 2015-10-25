@@ -4,7 +4,7 @@ function getData(pageName){
     },function(data){},"json");
 
     posting.done(function(data){
-        $('.ppContent').html(data);
+        alert(data);
     });
     posting.fail(function(){
         alert("failed");

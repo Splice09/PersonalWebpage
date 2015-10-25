@@ -52,11 +52,13 @@ app.use('/public/', function(request, response){
                      descQuery.on('end', function(result){
                          console.log('=============this is your project name: ' + projNames[0]);
                          console.log('=============this is your project description: ' + projDesc[0]);
+                         console.log('=============this is your project name: ' + projNames[1]);
+                         console.log('=============this is your project description: ' + projDesc[1]);
                          var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
                          myTable+= "<th>Project Description</th></tr>";
 
                          if(projNames.length == projDesc.length){
-                             for(var i = 0; i < 1; i++){
+                             for(var i = 0; i < projNames.length; i++){
                                  myTable+= "<tr><td>" + projNames[i]+ "</td><td>" + projDesc[i] + "</td></tr>";
                              }
                          }

@@ -59,24 +59,10 @@ app.use('/public/', function(request, response){
                              console.log('=============this is your project name: ' + projNames[1]);
                              console.log('=============this is your project description: ' + projDesc[1]);
                              */
-                             var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
-                             myTable+= "<th>Project Description</th></tr>";
-
-                             if(projNames.length == projDesc.length){
-                                 for(var i = 0; i < projNames.length; i++){
-                                     myTable+= "<tr><td>" + projNames[i]+ "</td><td>" + projDesc[i] + "</td></tr>";
-                                 }
-                             }
-                             else if(projNames.length == 0){
-                                 console.log("SOMETHING IS UP WITH OUR DATABASE READ IN");
-                             }
-                             else{
-                                 //console.log("table arrays aren't the same length.")
-                             }
-                             myTable+= "</table>";
-                             //console.log(myTable);
+                             //Build the table from the arrays containing the database data
+                             var tableComplete = buildTable(projNames, projDesc);
                              response.writeHeader(200, {'Content-type': 'application/json' });
-                             response.end(JSON.stringify(myTable));
+                             response.end(JSON.stringify(tableComplete));
                          });
                      });
                  });
@@ -183,9 +169,9 @@ function buildTable(pNames, pDesc){
     var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
     myTable+= "<th>Project Description</th></tr>";
 
-    if(pNames.length == pDesc.length){
-        for(var i = 0; i < 1; i++){
-            myTable+= "<tr><td>pNames[i]</td><td>pDesc[i]</td></tr>";
+    if(projNames.length == projDesc.length){
+        for(var i = 0; i < projNames.length; i++){
+            myTable+= "<tr><td>" + projNames[i]+ "</td><td>" + projDesc[i] + "</td></tr>";
         }
     }
     else if(projNames.length == 0){

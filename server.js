@@ -3,11 +3,13 @@ my_http = require("http"),
 path = require("path"),
 url = require("url"),
 fileSys = require("fs"),
+bodyParser = require("body-parser"),
 app = connect(),
 port = process.env.PORT || 5000,
 stats,
 htmlPath = "WebFrame.html",
 pg = require('pg');
+app.use(bodyParser.urlencoded({extended: false}));
 
 //This function uses the connect middleware to fetch the requested .css files or .js files
 app.use('/public/', function(request, response){
@@ -22,7 +24,7 @@ app.use('/public/', function(request, response){
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
 
-        console.log("*****************************" + request.param);
+        console.log("*****************************" + request.body.page_name);
         try{
             var myTable = "";
             console.log("WOOOOOOOOOOOOOOO WE POSTED!");
@@ -50,10 +52,12 @@ app.use('/public/', function(request, response){
 
                      });
                      descQuery.on('end', function(result){
+                         /*
                          console.log('=============this is your project name: ' + projNames[0]);
                          console.log('=============this is your project description: ' + projDesc[0]);
                          console.log('=============this is your project name: ' + projNames[1]);
                          console.log('=============this is your project description: ' + projDesc[1]);
+                         */
                          var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
                          myTable+= "<th>Project Description</th></tr>";
 

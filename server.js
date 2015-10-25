@@ -22,7 +22,7 @@ app.use('/public/', function(request, response){
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
 
-        console.log("*****************************" + request.body);
+        console.log("*****************************" + request.param);
         try{
             var myTable = "";
             console.log("WOOOOOOOOOOOOOOO WE POSTED!");

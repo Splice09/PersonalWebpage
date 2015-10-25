@@ -1,10 +1,10 @@
-function getData(pageName){
+function getWorkData(pageName){
     var posting = $.post("public/node_modules/server.js", {
         page_name: pageName
     },function(data){},"json");
 
-    posting.done(function(data){
-        alert(data);
+    posting.done(function(cdata){
+        alert(cdata);
     });
     posting.fail(function(){
         alert("failed");
@@ -12,5 +12,5 @@ function getData(pageName){
 }
 
 $(document).ready(function(){
-    getData("currentWork");
+    getWorkData("currentWork");
 });

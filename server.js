@@ -169,12 +169,12 @@ function buildTable(pNames, pDesc){
     var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
     myTable+= "<th>Project Description</th></tr>";
 
-    if(projNames.length == projDesc.length){
-        for(var i = 0; i < projNames.length; i++){
-            myTable+= "<tr><td>" + projNames[i]+ "</td><td>" + projDesc[i] + "</td></tr>";
+    if(pNames.length == pDesc.length){
+        for(var i = 0; i < pNames.length; i++){
+            myTable+= "<tr><td>" + pNames[i]+ "</td><td>" + pDesc[i] + "</td></tr>";
         }
     }
-    else if(projNames.length == 0){
+    else if(pNames.length == 0){
         console.log("SOMETHING IS UP WITH OUR DATABASE READ IN");
     }
     else{

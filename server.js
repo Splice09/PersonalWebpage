@@ -23,50 +23,10 @@ app.use('/public/', function(request, response){
 
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
-
         console.log("*****************************" + request.body.page_name);
         if(request.body.page_name == "pastProjects"){
             try{
-                var myTable = "";
-                console.log("WOOOOOOOOOOOOOOO WE POSTED!");
-                 //Connects to DATABASE_URL (heroku postgreSQL database)
-                 var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
-
-                 pg.connect(connectionString, function(err, client) {
-                     if (err) throw err;
-                     console.log('Connected to postgres! Getting schemas...');
-
-                     var projNames = [];
-                     var projDesc = [];
-
-                     //perform queries
-                     var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
-                     //store query results in array variables
-                     nameQuery.on('row', function(row) {
-                         projNames.push(JSON.stringify(row));
-
-                     });
-                     nameQuery.on('end',function(result){
-                         var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
-                         descQuery.on('row', function(row) {
-                             projDesc.push(JSON.stringify(row));
-
-                         });
-                         descQuery.on('end', function(result){
-                             /*
-                             console.log('=============this is your project name: ' + projNames[0]);
-                             console.log('=============this is your project description: ' + projDesc[0]);
-                             console.log('=============this is your project name: ' + projNames[1]);
-                             console.log('=============this is your project description: ' + projDesc[1]);
-                             */
-                             //Build the table from the arrays containing the database data
-                             var tableComplete = buildTable(projNames, projDesc);
-                             response.writeHeader(200, {'Content-type': 'application/json' });
-                             response.end(JSON.stringify(tableComplete));
-                         });
-                     });
-                 });
-
+                pastProjectsQuery(response);
             }
             catch (e){
                 console.log("SOMETHING IS UP WITH YOUR pastProjects POST DUDE.");
@@ -182,4 +142,44 @@ function buildTable(pNames, pDesc){
     }
     myTable+= "</table>";
     return myTable;
+}
+
+function pastProjectsQuery(response){
+    //Connects to DATABASE_URL (heroku postgreSQL database)
+    var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
+
+    pg.connect(connectionString, function(err, client) {
+        if (err) throw err;
+        console.log('Connected to postgres! Getting schemas...');
+
+        var projNames = [];
+        var projDesc = [];
+
+        //perform queries
+        var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
+        //store query results in array variables
+        nameQuery.on('row', function(row) {
+            projNames.push(JSON.stringify(row));
+
+        });
+        nameQuery.on('end',function(result){
+            var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
+            descQuery.on('row', function(row) {
+                projDesc.push(JSON.stringify(row));
+
+            });
+            descQuery.on('end', function(result){
+                /*
+                 console.log('=============this is your project name: ' + projNames[0]);
+                 console.log('=============this is your project description: ' + projDesc[0]);
+                 console.log('=============this is your project name: ' + projNames[1]);
+                 console.log('=============this is your project description: ' + projDesc[1]);
+                 */
+                //Build the table from the arrays containing the database data
+                var tableComplete = buildTable(projNames, projDesc);
+                response.writeHeader(200, {'Content-type': 'application/json' });
+                response.end(JSON.stringify(tableComplete));
+            });
+        });
+    });
 }

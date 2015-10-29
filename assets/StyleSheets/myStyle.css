@@ -319,6 +319,10 @@ td {
     vertical-align: center;
     font-size:1.3rem;
 }
+.date{
+    margin:0;
+    padding-bottom:2%;
+}
 .newLine{
     margin:0;
     padding-bottom:1%;

@@ -312,6 +312,7 @@ table, th, td{
 }
 th {
     padding:1%;
+    text-align:left;
     vertical-align: bottom;
     font-size:1.5rem;
 }

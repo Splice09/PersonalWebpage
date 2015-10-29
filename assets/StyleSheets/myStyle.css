@@ -333,6 +333,9 @@ body{
     border: 1px solid black;
     border-collapse:collapse;
 }
+.iconData{
+    width:16%;
+}
 .eImg{
     padding:2%;
     width:14%;

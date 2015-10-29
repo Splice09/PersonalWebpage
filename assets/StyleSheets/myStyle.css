@@ -335,14 +335,13 @@ body{
 }
 .iconData{
     width:40%;
-    align:"center";
 }
 .eImg{
-    padding:2%;
+    padding-left:18%;
     width:65%;
 }
 .gImg{
-    padding:1%;
+    padding-left:18%;
     width:65%;
 }
 .lImg{

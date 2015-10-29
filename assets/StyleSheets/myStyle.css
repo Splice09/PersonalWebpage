@@ -330,24 +330,24 @@ body{
     position:absolute;
     bottom:0;
     left:0;
-    width:36%;
+    width:38%;
     border: 1px solid black;
     border-collapse:collapse;
 }
 .iconData{
-    width:18%;
+    width:50%;
 }
 .eImg{
     padding:2%;
-    width:14%;
+    width:100%;
 }
 .gImg{
     padding:2%;
-    width:14%;
+    width:100%;
 }
 .lImg{
     padding:2%;
-    width:14%;
+    width:100%;
 }
 table, th, td{
     border: 1px solid black;

@@ -334,19 +334,19 @@ body{
     border-collapse:collapse;
 }
 .iconData{
-    width:16%;
+    width:10%;
 }
 .eImg{
     padding:2%;
-    width:14%;
+    width:100%;
 }
 .gImg{
     padding:2%;
-    width:14%;
+    width:100%;
 }
 .lImg{
     padding:2%;
-    width:14%;
+    width:100%;
 }
 table, th, td{
     border: 1px solid black;

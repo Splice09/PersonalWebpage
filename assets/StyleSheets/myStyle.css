@@ -332,9 +332,9 @@ body{
 .linksTable{
     position:absolute;
     bottom:0;
-    left:-6%;
+    left:-4%;
     width:50%;
-    border:0;
+    border: 0;
     border-collapse:collapse;
 }
 .iconData{
@@ -342,11 +342,11 @@ body{
     padding:0;
 }
 .eImg{
-    padding-left:32%;
+    padding-left:28%;
     width:80%;
 }
 .gImg{
-    padding-left:32%;
+    padding-left:28%;
     width:80%;
 }
 .lImg{

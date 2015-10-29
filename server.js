@@ -165,7 +165,7 @@ function pastProjectsQuery(response){
         nameQuery.on('end',function(result){
             var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
             descQuery.on('row', function(row) {
-                projDesc.push(row['prodesc']);
+                projDesc.push(row['projdesc']);
 
             });
             descQuery.on('end', function(result){

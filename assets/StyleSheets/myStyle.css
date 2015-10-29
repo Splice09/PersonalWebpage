@@ -305,6 +305,9 @@ body{
     width:100%;
     margin:0 auto;
     border-collapse:collapse;
+    border: 1px solid black;
+    font-family: "nimbus-sans",sans-serif;;
+    padding:1%;
 }
 .connectContent{
     position:absolute;
@@ -349,11 +352,6 @@ table.linksTable{
 .lImg{
     padding:6%;
     width:65%;
-}
-table, th, td{
-    border: 1px solid black;
-    font-family: "nimbus-sans",sans-serif;;
-    padding:1%;
 }
 th {
     padding:1%;

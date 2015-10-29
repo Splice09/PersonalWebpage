@@ -159,13 +159,13 @@ function pastProjectsQuery(response){
         var nameQuery = client.query('SELECT projname FROM projects.pastProjects;');
         //store query results in array variables
         nameQuery.on('row', function(row) {
-            projNames.push(JSON.stringify(row));
+            projNames.push(row['projname']);
 
         });
         nameQuery.on('end',function(result){
             var descQuery = client.query('SELECT projdesc FROM projects.pastProjects;');
             descQuery.on('row', function(row) {
-                projDesc.push(JSON.stringify(row));
+                projDesc.push(row['projname']);
 
             });
             descQuery.on('end', function(result){

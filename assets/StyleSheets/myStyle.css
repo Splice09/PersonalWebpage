@@ -327,10 +327,24 @@ body{
 
 }
 .eImg{
+    position:absolute;
+    padding-left:2%;
+    left:0;
+    bottom:7%;
+    width:5%;
+}
+.gImg{
+    position:absolute;
     padding:2%;
     left:0;
     bottom:0;
-    height:5%;
+    width:5%;
+}
+.lImg{
+    position:absolute;
+    padding-bottom:2%;
+    left:7%;
+    bottom:0;
     width:5%;
 }
 table, th, td{

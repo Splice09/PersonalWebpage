@@ -330,11 +330,12 @@ body{
     position:absolute;
     bottom:0;
     left:0;
+    width:36%;
     border: 1px solid black;
     border-collapse:collapse;
 }
 .iconData{
-    width:10%;
+    width:18%;
 }
 .eImg{
     padding:2%;

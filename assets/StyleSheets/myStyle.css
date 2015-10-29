@@ -336,6 +336,7 @@ body{
 }
 .iconData{
     width:50%;
+    align:"center";
 }
 .eImg{
     padding:2%;

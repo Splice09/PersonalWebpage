@@ -307,22 +307,22 @@ body{
 }
 .connectContent{
     position:absolute;
-    height:10%;
+    height:25%;
     width:20%;
-    left:20%;
+    left:10%;
     background:red;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
-    /*
-    -webkit-transform: rotate(50deg);
-    -ms-transform: rotate(50deg);
-    transform: rotate(50deg);
+
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
 
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
-    */
+
 }
 table, th, td{
     border: 1px solid black;

@@ -330,22 +330,22 @@ body{
     position:absolute;
     padding-left:2%;
     left:0;
-    bottom:7%;
-    width:5%;
+    bottom:16%;
+    width:14%;
 }
 .gImg{
     position:absolute;
     padding:2%;
     left:0;
     bottom:0;
-    width:5%;
+    width:14%;
 }
 .lImg{
     position:absolute;
     padding-bottom:2%;
-    left:7%;
+    left:16%;
     bottom:0;
-    width:5%;
+    width:14%;
 }
 table, th, td{
     border: 1px solid black;

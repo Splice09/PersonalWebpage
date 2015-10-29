@@ -180,6 +180,7 @@ body{
     height:150%;
     top: 0;
     background : #00006c;
+    overflow:hidden;
 
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -307,9 +308,10 @@ body{
 }
 .connectContent{
     position:absolute;
-    height:25%;
+    height:30%;
     width:20%;
-    left:10%;
+    top:5rem;
+    left:12%;
     background:red;
 
     -webkit-transform-origin:0 0;

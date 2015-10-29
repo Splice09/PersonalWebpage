@@ -331,24 +331,23 @@ body{
     bottom:0;
     left:0;
     width:50%;
-    border: 1px solid black;
     border-collapse:collapse;
 }
 .iconData{
-    width:50%;
+    width:40%;
     align:"center";
 }
 .eImg{
     padding:2%;
-    width:96%;
+    width:65%;
 }
 .gImg{
-    padding:2%;
-    width:96%;
+    padding:1%;
+    width:65%;
 }
 .lImg{
-    padding:2%;
-    width:96%;
+    padding:6%;
+    width:65%;
 }
 table, th, td{
     border: 1px solid black;

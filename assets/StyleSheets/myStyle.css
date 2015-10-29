@@ -330,7 +330,7 @@ body{
     position:absolute;
     bottom:0;
     left:0;
-    width:38%;
+    width:50%;
     border: 1px solid black;
     border-collapse:collapse;
 }
@@ -339,15 +339,15 @@ body{
 }
 .eImg{
     padding:2%;
-    width:100%;
+    width:96%;
 }
 .gImg{
     padding:2%;
-    width:100%;
+    width:96%;
 }
 .lImg{
     padding:2%;
-    width:100%;
+    width:96%;
 }
 table, th, td{
     border: 1px solid black;

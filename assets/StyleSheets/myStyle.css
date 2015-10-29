@@ -269,6 +269,18 @@ body{
       top:0;
       right:0;
 }
+.cwContent{
+    width:80%;
+    height:72%;
+    margin:0 auto;
+    padding:2%;
+    border-style:solid;
+    border-width:2px;
+    border-color:#d6d6d6;
+    font-family:"nimbus-sans",sans-serif;
+    font-size:1.3rem;
+    overflow:auto;
+}
 .pastProjects{
     position:absolute;
     display:none;
@@ -288,22 +300,29 @@ body{
     border-color:rgb(115, 115, 190);
     overflow:auto;
 }
-.cwContent{
-    width:80%;
-    height:72%;
-    margin:0 auto;
-    padding:2%;
-    border-style:solid;
-    border-width:2px;
-    border-color:#d6d6d6;
-    font-family:"nimbus-sans",sans-serif;
-    font-size:1.3rem;
-    overflow:auto;
-}
 .projectsTable{
     width:100%;
     margin:0 auto;
     border-collapse:collapse;
+}
+.connectContent{
+    position:absolute;
+    height:10%;
+    width:20%;
+    left:20%;
+    background:red;
+
+    -webkit-transform-origin:0 0;
+    -ms-transform-origin:0 0;
+    transform-origin:0 0;
+    /*
+    -webkit-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    */
 }
 table, th, td{
     border: 1px solid black;

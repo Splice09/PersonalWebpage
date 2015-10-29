@@ -321,20 +321,20 @@ td {
 }
 .newLine{
     margin:0;
-    padding-bottom:2%;
+    padding-bottom:1%;
 }
 .tabLine{
     margin:0;
-    padding-bottom:2%;
+    padding-bottom:1%;
     padding-left:5%;
 }
 .twoTabLine{
     margin:0;
-    padding-bottom:2%;
+    padding-bottom:1%;
     padding-left:10%;
 }
 .toast{
     margin:0;
     text-align: right;
-    padding-right:5%;
+    padding-right:10%;
 }

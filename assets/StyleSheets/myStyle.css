@@ -326,6 +326,13 @@ body{
     transition: all 1s ease 0s;
 
 }
+.eImg{
+    padding:2%;
+    left:0;
+    bottom:0;
+    height:5%;
+    width:5%;
+}
 table, th, td{
     border: 1px solid black;
     font-family: "nimbus-sans",sans-serif;;

@@ -131,7 +131,7 @@ function buildTable(pNames, pDesc){
 
     if(pNames.length == pDesc.length){
         for(var i = 0; i < pNames.length; i++){
-            myTable+= "<tr><td class=\"pData\">" + pNames[i]+ "</td><tdclass=\"pData\">" + pDesc[i] + "</td></tr>";
+            myTable+= "<tr><td class=\"pData\">" + pNames[i]+ "</td><td class=\"pData\">" + pDesc[i] + "</td></tr>";
         }
     }
     else if(pNames.length == 0){

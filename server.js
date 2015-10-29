@@ -126,12 +126,12 @@ console.log('Connected via port ' + port);
 
 
 function buildTable(pNames, pDesc){
-    var myTable = "<table class=\"projectsTable\"><tr><th>Project Name</th>";
-    myTable+= "<th>Project Description</th></tr>";
+    var myTable = "<table class=\"projectsTable\"><tr><th class=\"pHeader\">Project Name</th>";
+    myTable+= "<th class=\"pHeader\">Project Description</th></tr>";
 
     if(pNames.length == pDesc.length){
         for(var i = 0; i < pNames.length; i++){
-            myTable+= "<tr><td>" + pNames[i]+ "</td><td>" + pDesc[i] + "</td></tr>";
+            myTable+= "<tr><td class=\"pData\">" + pNames[i]+ "</td><tdclass=\"pData\">" + pDesc[i] + "</td></tr>";
         }
     }
     else if(pNames.length == 0){

@@ -1,6 +1,6 @@
 .container{
     position:absolute;
-    min-height:600px;
+    min-height:750px;
     padding:0;
     margin:0;
     height: 100%;
@@ -316,7 +316,7 @@ body{
     display:inline;
     width:5%;
     height:5%;
-    margin-left:6%;
+    margin-left:12%;
     background:red;
 
 }
@@ -354,15 +354,15 @@ body{
     padding:0;
 }
 .eImg{
-    width:4%;
+    width:3%;
     padding:1%;
 }
 .gImg{
-    width:4%;
+    width:3%;
     padding:1%;
 }
 .lImg{
-    width:4%;
+    width:3%;
     padding:1%;
 }
 .pHeader {

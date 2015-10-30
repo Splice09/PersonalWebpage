@@ -193,7 +193,12 @@ body{
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
-
+.textContainer{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
 .triText4{
     position:absolute;
     font-family: "depot-new-web",sans-serif;

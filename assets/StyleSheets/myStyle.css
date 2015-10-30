@@ -313,8 +313,8 @@ body{
     position:absolute;
     height:30%;
     width:20%;
-    top:5rem;
-    left:8rem;
+    top:50px;
+    left:100px;
 
 
     -webkit-transform-origin:0 0;

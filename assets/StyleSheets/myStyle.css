@@ -316,7 +316,7 @@ body{
     display:inline;
     width:5%;
     height:5%;
-    margin-left:12%;
+    margin-left:6%;
     background:red;
 
 }
@@ -354,15 +354,15 @@ body{
     padding:0;
 }
 .eImg{
-    height:8%;
+    width:4%;
     padding:1%;
 }
 .gImg{
-    height:8%;
+    width:4%;
     padding:1%;
 }
 .lImg{
-    height:8%;
+    width:4%;
     padding:1%;
 }
 .pHeader {

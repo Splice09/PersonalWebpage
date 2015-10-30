@@ -195,8 +195,7 @@ body{
 }
 .text4Container{
     width:100%;
-    height:50px;
-    background:green;
+    height:120px;
 }
 .triText4{
     position:absolute;
@@ -316,9 +315,7 @@ body{
     display:inline;
     width:5%;
     height:5%;
-    margin-left:12.3%;
-    background:red;
-
+    margin-left:11%;
 }
 .connectContent{
     display:none;

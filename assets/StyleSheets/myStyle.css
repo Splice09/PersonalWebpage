@@ -194,9 +194,6 @@ body{
     transition: all 1s ease 0s;
 }
 .text4Container{
-    position:absolute;
-    top:0;
-    left:0;
     width:100%;
     height:50px;
     background:green;
@@ -316,9 +313,10 @@ body{
     padding:1%;
 }
 .linkContainer{
-    display:block;
+    display:inline;
     width:5%;
     height:5%;
+    margin-left:12%;
     background:red;
 
 }
@@ -356,16 +354,16 @@ body{
     padding:0;
 }
 .eImg{
-    padding-left:21%;
-    width:80%;
+    width:14%;
+    padding:1%;
 }
 .gImg{
-    padding-left:21%;
-    width:80%;
+    width:14%;
+    padding:1%;
 }
 .lImg{
-    padding:6%;
-    width:80%;
+    width:14%;
+    padding:1%;
 }
 .pHeader {
     padding:1%;

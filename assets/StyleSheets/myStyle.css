@@ -388,6 +388,12 @@ body{
     padding-bottom:1%;
     padding-left:5%;
 }
+.tabLineStrike{
+    margin:0;
+    padding-bottom:1%;
+    padding-left:5%;
+    text-decoration:line-through;
+}
 .twoTabLine{
     margin:0;
     padding-bottom:1%;

@@ -213,16 +213,12 @@ body{
 }
 
 .contentHeader{
-    width:100%;
-    font-family: "depot-new-web",sans-serif;
-
-    transition:1s;
-    color: #D6D6D6;
-    font-size:1.8rem;
-    padding:2%;
-    top:0;
+    font-size:1.5rem;
 }
 
+.amContent{
+    height:60%;
+}
 .summary{
     font-size:1rem;
 }

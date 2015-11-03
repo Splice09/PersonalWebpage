@@ -196,6 +196,7 @@ body{
 .text4Container{
     width:100%;
     height:150px;
+    transition:1s;
 }
 .triText4{
     position:absolute;

@@ -159,6 +159,7 @@ body{
 }
 .text4Container{
     height:50px;
+    transition:1s;
 }
 .triText4{
     position:absolute;

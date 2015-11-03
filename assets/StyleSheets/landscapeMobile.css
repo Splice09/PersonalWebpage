@@ -190,7 +190,9 @@ body{
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
-
+.text4Container{
+    height:50px;
+}
 .triText4{
     position:absolute;
     transition:1s;
@@ -243,4 +245,19 @@ body{
 }
 .pData {
     font-size:1rem;
+}
+/*-------------------------------------------------------------------------------------------------
+     PAST PROJECTS CONTENT STYLES
+-------------------------------------------------------------------------------------------------*/
+.linkImg{
+    -webkit-transform-origin:0 0;
+    -ms-transform-origin:0 0;
+    transform-origin:0 0;
+
+    -webkit-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
 }

@@ -203,20 +203,22 @@ body{
     transition:1s;
     color: #D6D6D6;
     font-size:2rem;
-    font-size:2rem;
     left:18%;
     top:0%;
-
-    -webkit-transform-origin:0 0;
-    -ms-transform-origin:0 0;
-    transform-origin:0 0%;
-    /*
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    */
 }
 
+.contentHeader{
+    width:100%;
+    font-family: "depot-new-web",sans-serif;
+    transition:1s;
+    color: #D6D6D6;
+    font-size:3rem;
+    padding:2%;
+    top:0;
+}
+/*-------------------------------------------------------------------------------------------------
+     ABOUT ME CONTENT STYLES
+-------------------------------------------------------------------------------------------------*/
 .aboutMe{
     position:absolute;
     display:none;
@@ -225,16 +227,6 @@ body{
     background:rgb(115, 115, 190);
     top:0;
     right:0;
-}
-.contentHeader{
-    width:100%;
-    font-family: "depot-new-web",sans-serif;
-
-    transition:1s;
-    color: #D6D6D6;
-    font-size:3rem;
-    padding:2%;
-    top:0;
 }
 .amContent{
     width:80%;
@@ -263,6 +255,9 @@ body{
     padding-bottom:0;
 
 }
+/*-------------------------------------------------------------------------------------------------
+     CURRENT WORK CONTENT STYLES
+-------------------------------------------------------------------------------------------------*/
 .currentWork{
       position:absolute;
       display:none;
@@ -284,6 +279,9 @@ body{
     font-size:1.3rem;
     overflow:auto;
 }
+/*-------------------------------------------------------------------------------------------------
+     PAST PROJECTS CONTENT STYLES
+-------------------------------------------------------------------------------------------------*/
 .pastProjects{
     position:absolute;
     display:none;
@@ -323,6 +321,9 @@ body{
     font-size:1.3rem;
     border: 1px solid black;
 }
+/*-------------------------------------------------------------------------------------------------
+     CONTACT CONTENT STYLES
+-------------------------------------------------------------------------------------------------*/
 .linkContainer{
     display:inline;
     width:5%;
@@ -348,6 +349,9 @@ body{
     text-decoration:none;
 }
 
+/*-------------------------------------------------------------------------------------------------
+     CURRENT WORK WRITE-UP STYLES
+-------------------------------------------------------------------------------------------------*/
 .date{
     margin:0;
     padding-bottom:2%;

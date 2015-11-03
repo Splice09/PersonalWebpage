@@ -70,20 +70,9 @@ body{
 
 .triText1{
     position:absolute;
-    transition:1s;
-    color: #D6D6D6;
     font-size:1.2rem;
     left:21%;
     top:0;
-
-    -webkit-transform-origin:0 0;
-    -ms-transform-origin:0 0;
-    transform-origin:0 0;
-    /*
-    -webkit-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
-    */
 }
 .bodyTriangle1:hover .triText1{
     opacity: 1;
@@ -111,20 +100,9 @@ body{
 
 .triText2{
     position:absolute;
-    transition:1s;
-    color: #D6D6D6;
     font-size:1.2rem;
     left:14%;
     top:0;
-
-    -webkit-transform-origin:0 0;
-    -ms-transform-origin:0 0;
-    transform-origin:0 0%;
-    /*
-    -webkit-transform: transform: rotate(8deg);
-    -ms-transform: transform: rotate(8deg);
-    transform: rotate(8deg);
-    */
 }
 .bodyTriangle2:hover .triText2{
     opacity: 1;
@@ -152,20 +130,9 @@ body{
 
 .triText3{
     position:absolute;
-    transition:1s;
-    color: #D6D6D6;
     font-size:1.2rem;
     left: 14%;
     top:0;
-
-    -webkit-transform-origin:0 0;
-    -ms-transform-origin:0 0;
-    transform-origin:0 0%;
-    /*
-    -webkit-transform: rotate(11deg);
-    -ms-transform: rotate(11deg);
-    transform: rotate(11deg);
-    */
 }
 .bodyTriangle3:hover .triText3{
     opacity: 1;
@@ -195,20 +162,9 @@ body{
 }
 .triText4{
     position:absolute;
-    transition:1s;
-    color: #D6D6D6;
     font-size:1.2rem;
     left:14%;
     top:0;
-
-    -webkit-transform-origin:0 0;
-    -ms-transform-origin:0 0;
-    transform-origin:0 0%;
-    /*
-    -webkit-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    */
 }
 .bodyTriangle4:hover .triText4{
     opacity: 1;
@@ -247,7 +203,7 @@ body{
     font-size:1rem;
 }
 /*-------------------------------------------------------------------------------------------------
-     PAST PROJECTS CONTENT STYLES
+     CONTACT CONTENT STYLES
 -------------------------------------------------------------------------------------------------*/
 .linkImg{
     -webkit-transform: rotate(-60deg);

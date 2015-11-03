@@ -311,6 +311,18 @@ body{
     font-family: "nimbus-sans",sans-serif;;
     padding:1%;
 }
+.pHeader {
+    padding:1%;
+    text-align:left;
+    vertical-align: bottom;
+    font-size:1.5rem;
+    border: 1px solid black;
+}
+.pData {
+    padding:1%;
+    font-size:1.3rem;
+    border: 1px solid black;
+}
 .linkContainer{
     display:inline;
     width:5%;
@@ -365,19 +377,7 @@ body{
 .pageLink{
     text-decoration:none;
 }
-.pHeader {
-    padding:1%;
-    text-align:left;
-    vertical-align: bottom;
-    font-size:1.5rem;
-    border: 1px solid black;
-}
-.pData {
-    padding:1%;
-    vertical-align: center;
-    font-size:1.3rem;
-    border: 1px solid black;
-}
+
 .date{
     margin:0;
     padding-bottom:2%;

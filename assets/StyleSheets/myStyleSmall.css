@@ -344,7 +344,7 @@ body{
 }
 .linkImg{
     width:70%;
-    margin:0 auto;
+    margin:25% auto;
     padding-top:15%;
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
@@ -354,7 +354,7 @@ body{
     transition: all 1s ease 0s;
 }
 .pageLink{
-    margin:0 auto;
+    width:100%;
     text-decoration:none;
 }
 /*-------------------------------------------------------------------------------------------------

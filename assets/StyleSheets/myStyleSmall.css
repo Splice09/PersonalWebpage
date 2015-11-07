@@ -345,7 +345,7 @@ body{
 .linkImg{
     width:70%;
     margin:5% auto;
-
+    padding-left:15%;
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;

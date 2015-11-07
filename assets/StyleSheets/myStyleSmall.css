@@ -72,6 +72,7 @@ body{
 
 .triText1{
     position:absolute;
+    text-align:center;
     transition:1s;
     color: #D6D6D6;
     font-size:1.2rem;
@@ -111,6 +112,7 @@ body{
 }
 .triText2{
     position:absolute;
+    text-align:center;
     transition:1s;
     opacity: 1;
     color: #D6D6D6;
@@ -153,6 +155,7 @@ body{
 }
 .triText3{
     position:absolute;
+    text-align:center;
     transition:1s;
     opacity: 1;
     color: #D6D6D6;
@@ -194,6 +197,7 @@ body{
 }
 .triText4{
     position:absolute;
+    text-align:center;
     transition:1s;
     opacity: 1;
     color: #D6D6D6;
@@ -214,14 +218,6 @@ body{
 
 }
 
-.triText{
-    position:absolute;
-    top:50%;
-    opacity:0;
-    color:black;
-    float:left;
-    transition:1s;
-}
 
 /*-------------------------------------------------------------------------------------------------
      CONTACT CONTENT STYLES

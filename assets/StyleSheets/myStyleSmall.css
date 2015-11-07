@@ -45,14 +45,15 @@ body{
 
 .triContainer{
     position:absolute;
-    display:inline;
     height:100%;
     width:100%;
     background-color: #008000;
     overflow:hidden;
 }
 .bodyTriangle1{
-    width:100%;
+    position:absolute;
+    left:100%;
+    width:200%;
     height:25%;
     background : rgb(115, 115, 190);
 
@@ -92,7 +93,9 @@ body{
 
 
 .bodyTriangle2{
-    width:100%;
+    position:absolute;
+    left:75%;
+    width:200%;
     height:25%;
     background : rgb(129, 129, 197);
 
@@ -132,7 +135,9 @@ body{
 
 
 .bodyTriangle3{
-    width:100%;
+    position:absolute;
+    left:50%;
+    width:200%;
     height:25%;
     background : rgb(67, 67, 167);
 
@@ -171,7 +176,9 @@ body{
 
 
 .bodyTriangle4{
-    width:100%;
+    position:absolute;
+    left:25%;
+    width:200%;
     height:25%;
     background : #00006c;
 

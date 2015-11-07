@@ -229,9 +229,9 @@ body{
     position:absolute;
     display:none;
     width:100%;
-    height:100%;
+    height:80%;
     background:rgb(115, 115, 190);
-    top:15%;
+    top:12%;
     right:0;
 }
 .amContent{
@@ -267,10 +267,10 @@ body{
 .currentWork{
     position:absolute;
     display:none;
-    width:59%;
-    height:100%;
+    width:100%;
+    height:80%;
     background:rgb(129, 129, 197);
-    top:15%;
+    top:12%;
     right:0;
 }
 .cwContent{
@@ -291,10 +291,10 @@ body{
 .pastProjects{
     position:absolute;
     display:none;
-    width:59%;
-    height:100%;
+    width:100%;
+    height:80%;
     background:rgb(67, 67, 167);
-    top:15%;
+    top:12%;
     right:0;
 }
 .ppContent{

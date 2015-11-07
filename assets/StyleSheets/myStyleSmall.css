@@ -354,6 +354,7 @@ body{
     transition: all 1s ease 0s;
 }
 .pageLink{
+    margin:0 auto;
     text-decoration:none;
 }
 /*-------------------------------------------------------------------------------------------------

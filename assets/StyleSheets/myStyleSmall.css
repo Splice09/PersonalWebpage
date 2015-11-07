@@ -354,3 +354,35 @@ body{
 .pageLink{
     text-decoration:none;
 }
+/*-------------------------------------------------------------------------------------------------
+     CURRENT WORK WRITE-UP STYLES
+-------------------------------------------------------------------------------------------------*/
+.date{
+    margin:0;
+    padding-bottom:2%;
+}
+.newLine{
+    margin:0;
+    padding-bottom:1%;
+}
+.tabLine{
+    margin:0;
+    padding-bottom:1%;
+    padding-left:5%;
+}
+.tabLineStrike{
+    margin:0;
+    padding-bottom:1%;
+    padding-left:5%;
+    text-decoration:line-through;
+}
+.twoTabLine{
+    margin:0;
+    padding-bottom:1%;
+    padding-left:10%;
+}
+.toast{
+    margin:0;
+    text-align: right;
+    padding-right:10%;
+}

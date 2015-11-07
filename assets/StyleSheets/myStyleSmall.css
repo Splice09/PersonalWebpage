@@ -47,13 +47,13 @@ body{
     position:absolute;
     height:100%;
     width:100%;
-    background-color: #008000;
+    background-color: rgb(115, 115, 190);
     overflow:hidden;
 }
 .bodyTriangle1{
     position:absolute;
-    left:0;
-    width:100%;
+    left:75;
+    width:25%;
     height:100%;
     background : rgb(115, 115, 190);
 
@@ -73,10 +73,9 @@ body{
 .triText1{
     position:absolute;
     text-align:center;
-    transition:1s;
     color: #D6D6D6;
     font-size:1.2rem;
-    right:5%;
+    width:100%;
     top:2%;
 
     -webkit-transform-origin:0 0;
@@ -113,8 +112,6 @@ body{
 .triText2{
     position:absolute;
     text-align:center;
-    transition:1s;
-    opacity: 1;
     color: #D6D6D6;
     font-size:1.2rem;
     width:100%;
@@ -156,7 +153,6 @@ body{
 .triText3{
     position:absolute;
     text-align:center;
-    transition:1s;
     opacity: 1;
     color: #D6D6D6;
     font-size:1.2rem;
@@ -198,7 +194,6 @@ body{
 .triText4{
     position:absolute;
     text-align:center;
-    transition:1s;
     opacity: 1;
     color: #D6D6D6;
     font-size:1.2rem;

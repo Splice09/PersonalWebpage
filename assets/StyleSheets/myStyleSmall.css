@@ -92,12 +92,6 @@ body{
 
 
 .bodyTriangle2{
-    position:absolute;
-    left:75%;
-    width:200%;
-    height:25%;
-    background : rgb(129, 129, 197);
-
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
@@ -105,6 +99,14 @@ body{
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+
+    position:absolute;
+    left:75%;
+    width:200%;
+    height:25%;
+    background : rgb(129, 129, 197);
+
+
 
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
@@ -134,12 +136,6 @@ body{
 
 
 .bodyTriangle3{
-    position:absolute;
-    left:50%;
-    width:200%;
-    height:25%;
-    background : rgb(67, 67, 167);
-
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
@@ -147,6 +143,12 @@ body{
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+
+    position:absolute;
+    left:50%;
+    width:200%;
+    height:25%;
+    background : rgb(67, 67, 167);
 
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
@@ -175,12 +177,6 @@ body{
 
 
 .bodyTriangle4{
-    position:absolute;
-    left:25%;
-    width:200%;
-    height:25%;
-    background : #00006c;
-
     -webkit-transform-origin:0 0;
     -ms-transform-origin:0 0;
     transform-origin:0 0;
@@ -188,6 +184,12 @@ body{
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+
+    position:absolute;
+    left:25%;
+    width:200%;
+    height:25%;
+    background : #00006c;
 
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;

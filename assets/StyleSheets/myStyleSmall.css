@@ -231,7 +231,7 @@ body{
     width:100%;
     height:100%;
     background:rgb(115, 115, 190);
-    top:0;
+    top:15%;
     right:0;
 }
 .amContent{
@@ -270,7 +270,7 @@ body{
     width:59%;
     height:100%;
     background:rgb(129, 129, 197);
-    top:0;
+    top:15%;
     right:0;
 }
 .cwContent{
@@ -294,7 +294,7 @@ body{
     width:59%;
     height:100%;
     background:rgb(67, 67, 167);
-    top:0;
+    top:15%;
     right:0;
 }
 .ppContent{

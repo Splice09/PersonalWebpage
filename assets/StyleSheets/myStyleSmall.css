@@ -262,6 +262,72 @@ body{
 
 }
 /*-------------------------------------------------------------------------------------------------
+     CURRENT WORK CONTENT STYLES
+-------------------------------------------------------------------------------------------------*/
+.currentWork{
+    position:absolute;
+    display:none;
+    width:59%;
+    height:100%;
+    background:rgb(129, 129, 197);
+    top:0;
+    right:0;
+}
+.cwContent{
+    width:80%;
+    height:72%;
+    margin:0 auto;
+    padding:2%;
+    border-style:solid;
+    border-width:2px;
+    border-color:#d6d6d6;
+    font-family:"nimbus-sans",sans-serif;
+    font-size:1.3rem;
+    overflow:auto;
+}
+/*-------------------------------------------------------------------------------------------------
+     PAST PROJECTS CONTENT STYLES
+-------------------------------------------------------------------------------------------------*/
+.pastProjects{
+    position:absolute;
+    display:none;
+    width:59%;
+    height:100%;
+    background:rgb(67, 67, 167);
+    top:0;
+    right:0;
+}
+.ppContent{
+    width:80%;
+    height:72%;
+    margin:0 auto;
+    padding:2%;
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(115, 115, 190);
+    overflow:auto;
+}
+.projectsTable{
+    width:100%;
+    margin:0 auto;
+    border-collapse:collapse;
+    border: 1px solid black;
+    font-family: "nimbus-sans",sans-serif;;
+    padding:1%;
+}
+.pHeader {
+    padding:1%;
+    text-align:left;
+    vertical-align: bottom;
+    font-size:1.5rem;
+    border: 1px solid black;
+}
+.pData {
+    padding:1%;
+    font-size:1.3rem;
+    border: 1px solid black;
+}
+/*-------------------------------------------------------------------------------------------------
      CONTACT CONTENT STYLES
 -------------------------------------------------------------------------------------------------*/
 .linkContainer{

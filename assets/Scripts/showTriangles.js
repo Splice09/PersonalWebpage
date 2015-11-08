@@ -27,4 +27,9 @@ $( document ).ready(function() {
         $('.triText2').fadeIn('slow');
         $('.triText3').fadeToggle('fast');
     });
+    $('.bodyTriangle4').click(function(){
+       $('.aboutMe').fadeOut('fast');
+       $('.currentWork').fadeOut('fast');
+       $('.pastProjects').fadeOut('fast');
+    });
 });

@@ -335,12 +335,12 @@ body{
      CONTACT CONTENT STYLES
 -------------------------------------------------------------------------------------------------*/
 .linkContainer{
-    position:absolute;
+
     display:block;
     width:50%;
     height:80%;
     top:12%;
-    margin:0 auto;
+    margin:50% auto;
 }
 .linkImg{
     width:100%;

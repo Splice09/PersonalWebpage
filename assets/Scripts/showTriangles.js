@@ -29,7 +29,10 @@ $( document ).ready(function() {
     });
     $('.bodyTriangle4').click(function(){
        $('.aboutMe').fadeOut('fast');
+       $('.triText1').fadeIn('slow');
        $('.currentWork').fadeOut('fast');
+       $('.triText2').fadeIn('slow');
        $('.pastProjects').fadeOut('fast');
+       $('.triText3').fadeIn('slow');
     });
 });

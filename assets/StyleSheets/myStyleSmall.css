@@ -28,6 +28,12 @@ body{
     margin:0;
     padding:0;
 }
+
+.myLink {
+    color: #00006c;
+    text-decoration: none;
+}
+
 .pageHead{
     padding-top:0;
     letter-spacing: 2rem;

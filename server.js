@@ -29,16 +29,17 @@ app.use('/public/', function(request, response){
                 pastProjectsQuery(response);
             }
             catch (e){
-                console.log("SOMETHING IS UP WITH YOUR pastProjects POST DUDE.");
+                console.log("SOMETHING IS UP WITH YOUR pastProjects POST.");
             }
         }
         else{
             try{
+                //currentWorkQuery(response);
                 response.writeHeader(200, {'Content-type': 'application/json' });
                 response.end(JSON.stringify("currentWork is working!"));
             }
             catch (e){
-                console.log("SOMETHING IS UP WITH YOUR currentWork POST DUDE.");
+                console.log("SOMETHING IS UP WITH YOUR currentWork POST.");
             }
         }
     }
@@ -83,7 +84,7 @@ app.use('/public/', function(request, response){
             }
         }
         catch (e){
-            console.log("yo shit is broke!");
+            console.log("Something is horribly wrong!");
         }
     }
 });
@@ -180,6 +181,32 @@ function pastProjectsQuery(response){
                 response.writeHeader(200, {'Content-type': 'application/json' });
                 response.end(JSON.stringify(tableComplete));
             });
+        });
+    });
+}
+
+function currentWorkQuery(response){
+    //Connects to DATABASE_URL (heroku postgreSQL database)
+    var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
+
+    pg.connect(connectionString, function(err, client) {
+        if (err) throw err;
+        console.log('Connected to postgres! Getting schemas...');
+
+        var cwSummary = [];
+
+        //perform queries
+        //EDIT QUERY TO BE PERFORMED ON CW TABLE
+        var summaryQuery = client.query('SELECT projname FROM projects.pastProjects;');
+        //store query results in array variables
+        summaryQuery.on('row', function(row) {
+            //make change from projname to cwsummary
+            cwSummary.push(row['projname']);
+
+        });
+        summaryQuery.on('end',function(result){
+            response.writeHeader(200, {'Content-type': 'application/json' });
+            response.end(JSON.stringify(cwSummary));
         });
     });
 }

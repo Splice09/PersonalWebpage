@@ -4,7 +4,7 @@ function getWorkData(pageName){
     },function(data){},"json");
 
     posting.done(function(cdata){
-        alert(cdata[0]);
+        alert(cdata);
     });
     posting.fail(function(){
         alert("failed");

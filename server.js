@@ -34,7 +34,7 @@ app.use('/public/', function(request, response){
         }
         else{
             try{
-                //currentWorkQuery(response);
+                currentWorkQuery(response);
                 response.writeHeader(200, {'Content-type': 'application/json' });
                 response.end(JSON.stringify("currentWork is working!"));
             }
@@ -196,12 +196,10 @@ function currentWorkQuery(response){
         var cwSummary = [];
 
         //perform queries
-        //EDIT QUERY TO BE PERFORMED ON CW TABLE
-        var summaryQuery = client.query('SELECT projname FROM projects.pastProjects;');
+        var summaryQuery = client.query('SELECT summary FROM projects.currentWork;');
         //store query results in array variables
         summaryQuery.on('row', function(row) {
-            //make change from projname to cwsummary
-            cwSummary.push(row['projname']);
+            cwSummary.push(row['summary']);
 
         });
         summaryQuery.on('end',function(result){

@@ -281,6 +281,7 @@ body{
     font-family:"nimbus-sans",sans-serif;
     font-size:1.5rem;
     padding: 1%;
+    margin:0;
 }
 .cwContent{
     width:80%;

@@ -26,8 +26,19 @@ function getWorkData(pageName){
 }
 
 /*
- Calls the getData function when the page is ready.
+
  */
 $(document).ready(function(){
+    //Calls the getData function when the page is ready.
     getWorkData("currentWork");
+    /*
+        Listens for a blog page number to be clicked and then changes the content of current work to
+         match the number clicked
+    */
+    $(".blogNumber").click(function(event){
+        var numberID = event.target.id;
+        //$('.cwContent').empty();
+        alert(blogArray[numberID]);
+        //$('.cwContent').html(blogArray[numberID]);
+    });
 });

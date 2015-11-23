@@ -208,6 +208,10 @@ body{
      CONTACT CONTENT STYLES
 -------------------------------------------------------------------------------------------------*/
 .linkImg{
+    -webkit-transform-origin:100% 0;
+    -ms-transform-origin:100% 0;
+    transform-origin:100% 0;
+
     -webkit-transform: rotate(-60deg);
     -ms-transform: rotate(-60deg);
     transform: rotate(-60deg);

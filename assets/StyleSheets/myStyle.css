@@ -350,9 +350,9 @@ body{
     width:3%;
     padding:1%;
 
-    -webkit-transform-origin:0 0;
-    -ms-transform-origin:0 0;
-    transform-origin:0 0;
+    -webkit-transform-origin:100% 0;
+    -ms-transform-origin:100% 0;
+    transform-origin:100% 0;
 
     -webkit-transform: rotate(-50deg);
     -ms-transform: rotate(-50deg);

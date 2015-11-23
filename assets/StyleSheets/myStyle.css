@@ -271,12 +271,16 @@ body{
 }
 
 .numbersBox{
-    height:10px;
+    display:linear;
     width:10%;
-    background:red;
     text-align:center;
     padding:2%;
     margin:0 auto;
+}
+.blogNumber{
+    font-family:"nimbus-sans",sans-serif;
+    font-size:1.3rem;
+    padding: 1%;
 }
 .cwContent{
     width:80%;

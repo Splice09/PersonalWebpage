@@ -24,6 +24,8 @@ app.use('/public/', function(request, response){
     //check for request method for either a GET or a POST
     if(request.method == 'POST'){
         console.log("*****************************" + request.body.page_name);
+        //Check the value of page_name to determine where the post request came from
+        //-- this forks which table gets queried.
         if(request.body.page_name == "pastProjects"){
             try{
                 pastProjectsQuery(response);
@@ -117,13 +119,16 @@ app.use('/', function(request, response){
         }
     }
     catch (e){
-        console.log("yo shit is broke mang");
+        console.log("If you are reading this, you have bigger problems.");
     }
 });
 my_http.createServer(app).listen(port);
 console.log('Connected via port ' + port);
 
 
+/*
+This function builds a table dynamically using the values returned in the query of projects.pastProjects
+ */
 function buildTable(pNames, pDesc){
     var myTable = "<table class=\"projectsTable\"><tr><th class=\"pHeader\">Project Name</th>";
     myTable+= "<th class=\"pHeader\">Project Description</th></tr>";
@@ -143,6 +148,9 @@ function buildTable(pNames, pDesc){
     return myTable;
 }
 
+/*
+This function connects to heroku postgres and runs a query to fetch data from projects.pastProjects
+ */
 function pastProjectsQuery(response){
     //Connects to DATABASE_URL (heroku postgreSQL database)
     var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";
@@ -183,6 +191,9 @@ function pastProjectsQuery(response){
     });
 }
 
+/*
+ This function connects to heroku postgres and runs a query to fetch data from projects.currentWork
+ */
 function currentWorkQuery(response){
     //Connects to DATABASE_URL (heroku postgreSQL database)
     var connectionString = "postgres://xppbneritkkeqc:ORqdupmaW39VMbGad0hzgZVC-i@ec2-54-225-201-25.compute-1.amazonaws.com:5432/d34n1n2r66gvkb";

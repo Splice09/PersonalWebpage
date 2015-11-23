@@ -196,7 +196,7 @@ body{
 }
 .text4Container{
     width:100%;
-    height:150px;
+    height:50px;
     transition:1s;
 }
 .triText4{
@@ -344,7 +344,7 @@ body{
     display:inline;
     width:5%;
     height:5%;
-    margin-left:11%;
+    margin-left:9%;
 }
 .linkImg{
     width:3%;

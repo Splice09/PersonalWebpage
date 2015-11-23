@@ -14,11 +14,12 @@ function getWorkData(pageName){
     posting.done(function(cdata){
         blogArray = cdata;
         $('.cwContent').html(cdata[0]);
+        var tempString = "";
         for(var i = 0; i < cdata.length; i++){
             var tempNum = i + 1;
-            var tempString = "<p class=\"blogNumber\" id=\"" + i + "\">" + tempNum + "</p>";
-            $('.numbersBox').html(tempString);
+            tempString = tempString + "<p class=\"blogNumber\" id=\"" + i + "\">" + tempNum + "</p>";
         }
+        $('.numbersBox').html(tempString);
     });
     posting.fail(function(){
         alert("failed");

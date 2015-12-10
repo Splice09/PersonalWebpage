@@ -55,6 +55,7 @@ body{
     overflow:hidden;
 }
 .bodyTriangle1{
+    cursor: pointer;
     position:absolute;
     width:100%;
     height:100%;
@@ -97,6 +98,7 @@ body{
 
 
 .bodyTriangle2{
+    cursor: pointer;
     position:absolute;
     width:150%;
     height:150%;
@@ -136,6 +138,7 @@ body{
 }
 
 .bodyTriangle3{
+    cursor: pointer;
     position:absolute;
     width:150%;
     height:150%;
@@ -176,6 +179,7 @@ body{
 
 
 .bodyTriangle4{
+    cursor: pointer;
     position:absolute;
     width:150%;
     height:150%;
@@ -277,6 +281,7 @@ body{
     margin:0 auto;
 }
 .blogNumber{
+    cursor: pointer;
     display:inline;
     font-family:"nimbus-sans",sans-serif;
     font-size:1.5rem;
